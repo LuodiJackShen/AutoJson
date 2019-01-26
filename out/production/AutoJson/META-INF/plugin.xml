@@ -7,8 +7,9 @@
     </vendor>
 
     <description><![CDATA[
-      在flutter工程的bean类中自动生成json_serializable需要的序列化相关代码。
-      Generate the serialization-related code json_serializable needs automatically in the bean class of the flutter project.
+      在flutter工程的bean类中自动生成json_serializable需要的序列化相关代码。<br>
+      Generate the serialization-related code json_serializable needs automatically in the bean class of the flutter project.<br>
+      <img src="https://github.com/LuodiJackShen/AutoJson/blob/master/image/preview.gif"  alt="https://github.com/LuodiJackShen/AutoJson/blob/master/image/preview.gif" />
     ]]></description>
 
     <change-notes><![CDATA[

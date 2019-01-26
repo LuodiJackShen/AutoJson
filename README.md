@@ -7,7 +7,7 @@
 2. 点击鼠标右键，选择 ```AutoJson```，或者直接点击 ```Control+Enter``` (Windows:```Alt+Insert```)。
 
 ### 版本
-* v1.0-beta 满足基本功能。
+* v1.0 满足基本功能。
 
 ### 效果图
 ![image](https://github.com/LuodiJackShen/AutoJson/blob/master/image/preview_high_quality.gif)
