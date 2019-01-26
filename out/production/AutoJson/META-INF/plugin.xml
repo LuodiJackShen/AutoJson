@@ -1,0 +1,43 @@
+<idea-plugin>
+    <id>com.jack.plugin.autojson</id>
+    <name>AutoJson</name>
+    <version>1.0</version>
+    <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
+        LuodiJackShen
+    </vendor>
+
+    <description><![CDATA[
+      在flutter工程的bean类中自动生成json_serializable需要的序列化相关代码。
+      Generate the serialization-related code json_serializable needs automatically in the bean class of the flutter project.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      This is the first version. I hope it can help you.
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0" />
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="AutoJson.GenerateAction" class="com.jack.Generate" text="AutoJson"
+            description="com.jack.Generate code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
+        </action>
+    </actions>
+
+</idea-plugin>
