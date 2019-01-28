@@ -3,6 +3,7 @@
 * 支持：Idea、AandroidStudio
 
 ### 使用方式
+0. 依次打开 ```AndroidStudio(Idea) -> File -> Settings -> Plugin -> 搜索AutoJson -> 安装AutoJson -> 重启AndroidStudio(Idea)```。
 1. 选择```.dart```文件的类名。
 2. 点击鼠标右键，选择 ```AutoJson```，或者直接点击 ```Control+Enter``` (Windows:```Alt+Insert```)。
 
