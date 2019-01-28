@@ -18,6 +18,9 @@ import com.intellij.psi.SyntheticElement;
 import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.util.PsiUtilBase;
 
+import org.bouncycastle.crypto.tls.MaxFragmentLength;
+import org.jetbrains.annotations.NotNull;
+
 /**
  * by shenmingliang1
  * 2019.01.24 17:27.
@@ -76,6 +79,23 @@ public class Generate extends AnAction {
 
             mCaret.moveToVisualPosition(new VisualPosition(line + 7, column));
             selectionModel.selectWordAtCaret(true);
+        }
+    }
+
+    @Override
+    public void update(@NotNull AnActionEvent e) {
+        super.update(e);
+        e.getPresentation().setEnabled(false);
+        Project project = e.getProject();
+        if (project != null) {
+            Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
+            PsiFile file = PsiUtilBase.getPsiFileInEditor(editor, project);
+            if (file != null) {
+                String fileName = file.getName();
+                if (fileName.contains(".dart")) {
+                    e.getPresentation().setEnabled(true);
+                }
+            }
         }
     }
 
