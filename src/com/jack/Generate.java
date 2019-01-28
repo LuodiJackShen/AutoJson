@@ -18,8 +18,12 @@ import com.intellij.psi.SyntheticElement;
 import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.util.PsiUtilBase;
 
-import org.bouncycastle.crypto.tls.MaxFragmentLength;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * by shenmingliang1
@@ -39,13 +43,18 @@ public class Generate extends AnAction {
     private String ANNOTATION;
     private String JSON_METHOD;
     private String mClassName = "";
+    private String mFileContent = "";
+    private int mClassLine = -1;
 
     @Override
     public void actionPerformed(AnActionEvent e) {
         initParams(e);
         SelectionModel selectionModel = mEditor.getSelectionModel();
-        if (selectionModel.hasSelection()) {
-            mClassName = selectionModel.getSelectedText().trim();
+        if (selectionModel.hasSelection() || (mClassName != null && !mClassName.equals(""))) {
+            String selectedStr = selectionModel.getSelectedText();
+            selectedStr = selectedStr == null || selectedStr.equals("") ? "" : selectedStr;
+            mClassName = mClassName == null || mClassName.equals("") ? selectedStr : mClassName;
+
             if (mClassName.equals("")) {
                 return;
             }
@@ -63,10 +72,14 @@ public class Generate extends AnAction {
                     + mClassName
                     + "ToJson(instance);\n\n";
 
-            int line = mCaret.getVisualPosition().line;
+            int line = mClassLine;
+            if (line == -1) {
+                line = mCaret.getVisualPosition().line;
+            }
             int column = mCaret.getVisualPosition().column;
+            mCaret.moveToVisualPosition(new VisualPosition(line - 1 == -1 ? 0 : line - 1, 0));
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
-                mDocument.insertString(line - 1 == -1 ? 0 : line - 1, ANNOTATION);
+                mDocument.insertString(mCaret.getOffset(), ANNOTATION);
                 mDocument.insertString(0, LIBRARY_IMPORT + JSON_PACKAGE_IMPORT
                         + PART_IMPORT);
             });
@@ -105,8 +118,30 @@ public class Generate extends AnAction {
         mDocument = mEditor.getDocument();
         mCaret = mEditor.getCaretModel();
         mFile = PsiUtilBase.getPsiFileInEditor(mEditor, mProject);
+        mFileContent = mDocument.getText();
+        mClassName = parseClassName(mFileContent);
+        if (mFileContent != null && !mFileContent.equals("")) {
+            int index = mFileContent.indexOf(mClassName);
+            String targetStr = mFileContent.substring(0, index);
+            String[] lines = targetStr.split("\n");
+            mClassLine = lines.length;
+        }
 //        mClass = getTargetClass(mEditor, mFile);
 //        mClassName = mClass.getName();
+    }
+
+    private String parseClassName(String fileContent) {
+        if (fileContent == null || fileContent.equals("")) {
+            return "";
+        }
+
+        String rgex = "class(.*?)\\{";
+        Pattern pattern = Pattern.compile(rgex);// 匹配的模式
+        Matcher m = pattern.matcher(fileContent);
+        while (m.find()) {
+            return m.group(1).trim();
+        }
+        return "";
     }
 
     private PsiClass getTargetClass(Editor editor, PsiFile file) {

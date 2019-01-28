@@ -10,8 +10,12 @@
       在flutter工程的bean类中自动生成json_serializable需要的序列化相关代码。<br>
       Generate the serialization-related code json_serializable needs automatically in the bean class of the flutter project.<br>
       <br><br>
-      使用步骤：<br>
-      1、打开.dart文件，双击鼠标左键选择 .dart 文件的类名。<br>
+      使用方式一(v1.1以上)：<br>
+      1、打开.dart文件。<br>
+      2、点击鼠标右键，选择 AutoJson，或者直接点击 Control+Enter (Windows:Alt+Insert)。<br>
+      <br>
+      使用方式二(v1.0以上)：<br>
+      1、打开.dart文件，双击鼠标左键选择 .dart 文件的类名<b>（最新版本可不用双击选中类名）</b>。<br>
       2、点击鼠标右键，选择 AutoJson，或者直接点击 Control+Enter (Windows:Alt+Insert)。<br>
       <br><br>
       Final:<br>
@@ -19,13 +23,13 @@
       If you find a Bug or have some good ideas, please create a Issue in <a href="https://github.com/LuodiJackShen/AutoJson/issues/new">GitHub</a>
       <br><br>
       <a href="https://github.com/LuodiJackShen/AutoJson/blob/master/image/preview_high_quality.gif">操作演示：</a><br>
-      <img src="https://github.com/LuodiJackShen/AutoJson/blob/master/image/preview.gif">
+      <img src="https://github.com/LuodiJackShen/AutoJson/blob/master/image/v1.1_preview.gif">
       <br>
     ]]></description>
 
     <change-notes><![CDATA[
+        - v1.1  ① 体验提升：不用选中类名即可生成需要的代码;② 功能限制：仅在 <b>xxx.dart</b> 文件中可用此插件。<br>
         - v1.0  实现基本功能:自动生成序列化需要的代码。<br>
-        - v1.1  功能限制：仅在 <b>xxx.dart</b> 文件中可用此插件。<br>
     ]]>
     </change-notes>
 
