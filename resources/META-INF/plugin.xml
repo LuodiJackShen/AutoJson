@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
         LuodiJackShen
     </vendor>
@@ -28,6 +28,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        - v1.2  细节优化。<br>
         - v1.1  ① 体验提升：不用选中类名即可生成需要的代码;② 功能限制：仅在 <b>xxx.dart</b> 文件中可用此插件。<br>
         - v1.0  实现基本功能:自动生成序列化需要的代码。<br>
     ]]>
