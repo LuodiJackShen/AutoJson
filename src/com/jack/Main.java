@@ -12,14 +12,14 @@ import java.util.regex.Pattern;
 
 class Main {
     public static void main(String[] args) {
-        String fileContent = "class TestFood {\n" +
+        String fileContent = "class TestFood implements Object{\n" +
                 "    final String name;\n" +
                 "    final double price;\n" +
                 "\n" +
                 "    TestFood(this.name,this.price);\n" +
                 "}\n";
 
-        String rgex = "class(.*?)\\{";
+        String rgex = "class(.*?)(extends(.*?))?(implements(.*?))?\\{";
         List<String> list = new ArrayList<String>();
         Pattern pattern = Pattern.compile(rgex);// 匹配的模式
         Matcher m = pattern.matcher(fileContent);

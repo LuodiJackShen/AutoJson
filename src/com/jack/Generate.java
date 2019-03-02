@@ -42,6 +42,7 @@ public class Generate extends AnAction {
     private String PART_IMPORT;
     private String ANNOTATION;
     private String JSON_METHOD;
+    private String mFileName = "";
     private String mClassName = "";
     private String mFileContent = "";
     private int mClassLine = -1;
@@ -61,7 +62,7 @@ public class Generate extends AnAction {
 
             JSON_PACKAGE_IMPORT = "import 'package:json_annotation/json_annotation.dart';\n\n";
             LIBRARY_IMPORT = "library " + mClassName.toLowerCase() + ";\n\n";
-            PART_IMPORT = "part '" + mClassName + ".g.dart';\n\n";
+            PART_IMPORT = "part '" + mFileName + ".g.dart';\n\n";
             ANNOTATION = "@JsonSerializable()\n";
             JSON_METHOD = "    factory " + mClassName
                     + ".fromJson(Map<String, dynamic> json) => _$" + mClassName
@@ -84,7 +85,7 @@ public class Generate extends AnAction {
                         + PART_IMPORT);
             });
 
-            mCaret.moveToVisualPosition(new VisualPosition(line + 8, 0));
+            mCaret.moveToVisualPosition(new VisualPosition(line + 7, 0));
             int offset = mCaret.getOffset();
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
                 mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
@@ -118,6 +119,9 @@ public class Generate extends AnAction {
         mDocument = mEditor.getDocument();
         mCaret = mEditor.getCaretModel();
         mFile = PsiUtilBase.getPsiFileInEditor(mEditor, mProject);
+        mFileName = mFile.getName();
+        int dotIndex = mFileName.indexOf('.');
+        mFileName = mFileName.substring(0, dotIndex);
         mFileContent = mDocument.getText();
         mClassName = parseClassName(mFileContent);
         if (mFileContent != null && !mFileContent.equals("")) {
@@ -135,7 +139,7 @@ public class Generate extends AnAction {
             return "";
         }
 
-        String rgex = "class(.*?)\\{";
+        String rgex = "class(.*?)(extends(.*?))?(implements(.*?))?\\{";
         Pattern pattern = Pattern.compile(rgex);// 匹配的模式
         Matcher m = pattern.matcher(fileContent);
         while (m.find()) {
