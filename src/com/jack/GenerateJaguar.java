@@ -20,16 +20,15 @@ import com.intellij.psi.util.PsiUtilBase;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * work with jaguar_serializer
  * by shenmingliang1
  * 2019.01.24 17:27.
  */
-public class Generate extends AnAction {
+public class GenerateJaguar extends AnAction {
     private PsiClass mClass;
     private Editor mEditor;
     private Project mProject;
@@ -38,10 +37,8 @@ public class Generate extends AnAction {
     private PsiFile mFile;
 
     private String JSON_PACKAGE_IMPORT;
-    private String LIBRARY_IMPORT;
     private String PART_IMPORT;
     private String ANNOTATION;
-    private String JSON_METHOD;
     private String mFileName = "";
     private String mClassName = "";
     private String mFileContent = "";
@@ -60,38 +57,18 @@ public class Generate extends AnAction {
                 return;
             }
 
-            JSON_PACKAGE_IMPORT = "import 'package:json_annotation/json_annotation.dart';\n\n";
-            LIBRARY_IMPORT = "library " + mClassName.toLowerCase() + ";\n\n";
-            PART_IMPORT = "part '" + mFileName + ".g.dart';\n\n";
-            ANNOTATION = "@JsonSerializable()\n";
-            JSON_METHOD = "    factory " + mClassName
-                    + ".fromJson(Map<String, dynamic> json) => _$" + mClassName
-                    + "FromJson(json);\n\n"
-                    + "     Map<String, dynamic> toJson("
-                    + mClassName
-                    + " instance) => _$"
-                    + mClassName
-                    + "ToJson(instance);\n\n";
+            JSON_PACKAGE_IMPORT = "import 'package:jaguar_serializer/jaguar_serializer.dart';\n\n";
+            PART_IMPORT = "part '" + mFileName + ".jser.dart';\n\n";
+            ANNOTATION = "@GenSerializer()\n";
+            String classStr = ANNOTATION + "class " + mClassName + "Serializer extends Serializer<"
+                    + mClassName + "> with _$" + mClassName + "Serializer{}\n\n";
 
-            int line = mClassLine;
-            if (line == -1) {
-                line = mCaret.getVisualPosition().line;
-            }
-            int column = mCaret.getVisualPosition().column;
-            mCaret.moveToVisualPosition(new VisualPosition(line - 1 == -1 ? 0 : line - 1, 0));
+            mCaret.moveToVisualPosition(new VisualPosition(0, 0));
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
-                mDocument.insertString(mCaret.getOffset(), ANNOTATION);
-                mDocument.insertString(0, LIBRARY_IMPORT + JSON_PACKAGE_IMPORT
-                        + PART_IMPORT);
+                mDocument.insertString(0, classStr);
+                mDocument.insertString(0, JSON_PACKAGE_IMPORT + PART_IMPORT);
             });
 
-            mCaret.moveToVisualPosition(new VisualPosition(line + 7, 0));
-            int offset = mCaret.getOffset();
-            WriteCommandAction.runWriteCommandAction(mProject, () -> {
-                mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
-            });
-
-            mCaret.moveToVisualPosition(new VisualPosition(line + 7, column));
             selectionModel.selectWordAtCaret(true);
         }
     }

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
-    <version>1.3</version>
+    <version>1.4</version>
     <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
         LuodiJackShen
     </vendor>
@@ -28,6 +28,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        - v1.4  添加对jaguar_serializer的支持；<br>
         - v1.3  修改extends、implements关键词带来的问题；细节优化；<br>
         - v1.2  细节优化。<br>
         - v1.1  ① 体验提升：不用选中类名即可生成需要的代码;② 功能限制：仅在 <b>xxx.dart</b> 文件中可用此插件。<br>
@@ -49,13 +50,21 @@
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
-        <action id="AutoJson.GenerateAction" class="com.jack.Generate" text="AutoJson"
-            description="com.jack.Generate code that json need automatically.">
+        <action id="AutoJson.GenerateAction" class="com.jack.GenerateJson" text="JsonSerializable"
+            description="com.jack.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
+        </action>
+
+        <action id="JaguarSerializer.GenerateAction" class="com.jack.GenerateJaguar"
+            text="JaguarSerializer"
+            description="com.jack.GenerateJson code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G" />
         </action>
     </actions>
 

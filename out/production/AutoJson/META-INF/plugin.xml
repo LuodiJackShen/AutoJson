@@ -50,12 +50,21 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="AutoJson.GenerateAction" class="com.jack.Generate" text="AutoJson"
-            description="com.jack.Generate code that json need automatically.">
+        <action id="AutoJson.GenerateAction" class="com.jack.GenerateJson" text="JsonSerializable"
+            description="com.jack.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
+        </action>
+
+        <action id="JaguarSerializer.GenerateAction" class="com.jack.GenerateJaguar"
+            text="JaguarSerializer"
+            description="com.jack.GenerateJson code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G" />
         </action>
     </actions>
 
