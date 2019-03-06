@@ -14,6 +14,7 @@
 3. 点击鼠标右键，选择 ```AutoJson```，或者直接点击 ```Control+Enter (Windows:Alt+Insert)```。
 
 ### 版本
+* v1.3  修复extends、implements关键词带来的问题；
 * v1.2  修复操作图片的问题。
 * v1.1  ① 体验提升：不用选中类名即可生成需要的代码;② 功能限制：仅在 xxx.dart 文件中可用此插件。
 * v1.0  满足基本功能。
