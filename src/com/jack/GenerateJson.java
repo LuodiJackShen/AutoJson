@@ -68,11 +68,9 @@ public class GenerateJson extends AnAction {
             JSON_METHOD = "    factory " + mClassName
                     + ".fromJson(Map<String, dynamic> json) => _$" + mClassName
                     + "FromJson(json);\n\n"
-                    + "     Map<String, dynamic> toJson("
+                    + "     Map<String, dynamic> toJson( instance) => _$"
                     + mClassName
-                    + " instance) => _$"
-                    + mClassName
-                    + "ToJson(instance);\n\n";
+                    + "ToJson(this);\n\n";
 
             int line = mClassLine;
             if (line == -1) {
