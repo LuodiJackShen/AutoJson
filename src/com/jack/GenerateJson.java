@@ -39,7 +39,6 @@ public class GenerateJson extends AnAction {
     private PsiFile mFile;
 
     private String JSON_PACKAGE_IMPORT;
-    private String LIBRARY_IMPORT;
     private String PART_IMPORT;
     private String ANNOTATION;
     private String JSON_METHOD;
@@ -62,13 +61,12 @@ public class GenerateJson extends AnAction {
             }
 
             JSON_PACKAGE_IMPORT = "import 'package:json_annotation/json_annotation.dart';\n\n";
-            LIBRARY_IMPORT = "library " + mClassName.toLowerCase() + ";\n\n";
             PART_IMPORT = "part '" + mFileName + ".g.dart';\n\n";
             ANNOTATION = "@JsonSerializable()\n";
             JSON_METHOD = "    factory " + mClassName
                     + ".fromJson(Map<String, dynamic> json) => _$" + mClassName
                     + "FromJson(json);\n\n"
-                    + "     Map<String, dynamic> toJson( instance) => _$"
+                    + "     Map<String, dynamic> toJson() => _$"
                     + mClassName
                     + "ToJson(this);\n\n";
 
@@ -80,7 +78,7 @@ public class GenerateJson extends AnAction {
             mCaret.moveToVisualPosition(new VisualPosition(line - 1 == -1 ? 0 : line - 1, 0));
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
                 mDocument.insertString(mCaret.getOffset(), ANNOTATION);
-                mDocument.insertString(0, LIBRARY_IMPORT + JSON_PACKAGE_IMPORT
+                mDocument.insertString(0,  JSON_PACKAGE_IMPORT
                         + PART_IMPORT);
             });
 

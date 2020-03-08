@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
-    <version>1.4</version>
+    <version>1.5</version>
     <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
         LuodiJackShen
     </vendor>
@@ -28,6 +28,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        - v1.5  修复部分问题；<br>
         - v1.4  终于支持jaguar_serializer了；<br>
         - v1.3  修改extends、implements关键词带来的问题；细节优化；<br>
         - v1.2  细节优化。<br>

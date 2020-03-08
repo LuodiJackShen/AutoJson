@@ -14,6 +14,7 @@
 3. 点击鼠标右键，选择 ```JsonSerializable```或者```JaguarSerializer```，或者直接点击 ```Control+Enter (Windows:Alt+Insert)```。
 
 ### 版本
+* v1.5  修复部分问题；
 * v1.4  终于支持jaguar_serializer了；
 * v1.3  修复extends、implements关键词带来的问题；
 * v1.2  修复操作图片的问题。
