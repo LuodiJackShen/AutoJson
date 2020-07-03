@@ -1,4 +1,4 @@
-# AutoJson [![as plugin](https://img.shields.io/jetbrains/plugin/d/11600-autojson.svg)](https://plugins.jetbrains.com/plugin/11600-autojson)
+# AutoJson [![as plugin](https://img.shields.io/jetbrains/plugin/d/11600-autojson.svg)](https://plugins.jetbrains.com/plugin/11600-autojson) [![GitHub stars](https://img.shields.io/github/stars/LuodiJackShen/AutoJson)](https://github.com/LuodiJackShen/AutoJson/stargazers) [![GitHub forks](https://img.shields.io/github/forks/LuodiJackShen/AutoJson)](https://github.com/LuodiJackShen/AutoJson/network)
 * 作用：在flutter工程的bean类中自动生成json_serializable和jaguar_serializer需要的序列化相关代码。
 * 支持：Idea、AandroidStudio
 
