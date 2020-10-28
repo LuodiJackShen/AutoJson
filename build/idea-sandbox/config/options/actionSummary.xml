@@ -1,0 +1,69 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="5" last="1603879977868" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="24" last="1603881118380" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="12" last="1603880656224" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="4" last="1603880657306" />
+      </entry>
+      <entry key="EditorDeleteToWordStart">
+        <ActionSummary times="1" last="1603880659833" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="15" last="1603880657553" />
+      </entry>
+      <entry key="EditorDownWithSelection">
+        <ActionSummary times="4" last="1603880447304" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="1" last="1603880653604" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="4" last="1603880658648" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="1" last="1603880653337" />
+      </entry>
+      <entry key="EditorLineEndWithSelection">
+        <ActionSummary times="6" last="1603880656872" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="3" last="1603880657802" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="2" last="1603880659174" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="45" last="1603880656582" />
+      </entry>
+      <entry key="EditorUpWithSelection">
+        <ActionSummary times="3" last="1603880451519" />
+      </entry>
+      <entry key="Generate">
+        <ActionSummary times="12" last="1603881109638" />
+      </entry>
+      <entry key="ReformatCode">
+        <ActionSummary times="4" last="1603880662168" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="5" last="1603881124547" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="1" last="1603880472475" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="5" last="1603881098912" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="2" last="1603880537813" />
+      </entry>
+    </data>
+  </component>
+</application>

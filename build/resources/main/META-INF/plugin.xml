@@ -1,0 +1,48 @@
+<idea-plugin>
+  <version>1.0.6</version>
+  <idea-version since-build="202.7660" until-build="202.*"/>
+  <id>com.jack.plugin.autojson</id>
+  <name>AutoJson</name>
+  <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
+        LuodiJackShen
+    </vendor>
+  <description>
+      在flutter工程的bean类中自动生成json_serializable(v1.0开始支持)和jaguar_serializer(v1.4开始支持)需要的序列化相关代码。&lt;br&gt;
+      Generate the serialization-related code json_serializable(v1.0 begin) and jaguar_serializer(v1.4 begin) needs automatically in the bean class of the flutter project.&lt;br&gt;
+      &lt;br&gt;&lt;br&gt;
+      使用方式一(v1.1以上)：&lt;br&gt;
+      1、打开.dart文件。&lt;br&gt;
+      2、点击鼠标右键，选择 JsonSerializable或者JaguarSerializer，或者直接点击 Control+Enter (Windows:Alt+Insert)。&lt;br&gt;
+      &lt;br&gt;
+      使用方式二(v1.0以上)：&lt;br&gt;
+      1、打开.dart文件，双击鼠标左键选择 .dart 文件的类名&lt;b&gt;（最新版本可不用双击选中类名）&lt;/b&gt;。&lt;br&gt;
+      2、点击鼠标右键，选择 选择 JsonSerializable或者JaguarSerializer，或者直接点击 Control+Enter (Windows:Alt+Insert)。&lt;br&gt;
+      &lt;br&gt;&lt;br&gt;
+      Final:&lt;br&gt;
+      &lt;a href="https://github.com/LuodiJackShen/AutoJson"&gt;GitHub repo&lt;/a&gt;: https://github.com/LuodiJackShen/AutoJson &lt;br&gt;
+      If you find a Bug or have some good ideas, please create a Issue in &lt;a href="https://github.com/LuodiJackShen/AutoJson/issues/new"&gt;GitHub&lt;/a&gt;
+      &lt;br&gt;&lt;br&gt;
+      &lt;a href="https://github.com/LuodiJackShen/AutoJson/blob/master/image/use_guide.gif"&gt;操作演示：&lt;/a&gt;&lt;br&gt;
+      &lt;img src="https://raw.githubusercontent.com/LuodiJackShen/AutoJson/master/image/use_guide.gif"&gt;
+      &lt;br&gt;
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="AutoJson.GenerateAction" class="com.jack.GenerateJson" text="JsonSerializable" description="com.jack.GenerateJson code that json need automatically.">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+      <add-to-group group-id="EditMenu" anchor="first"/>
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J"/>
+    </action>
+    <action id="JaguarSerializer.GenerateAction" class="com.jack.GenerateJaguar" text="JaguarSerializer" description="com.jack.GenerateJson code that json need automatically.">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+      <add-to-group group-id="EditMenu" anchor="first"/>
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G"/>
+    </action>
+  </actions>
+</idea-plugin>

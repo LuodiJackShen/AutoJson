@@ -1,0 +1,23 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/libraries/Dart_Packages.xml" timestamp="1603877741666" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/libraries/Dart_SDK.xml" timestamp="1599203176769" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/libraries/KotlinJavaRuntime.xml" timestamp="1596527259422" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/libraries/Flutter_for_Android.xml" timestamp="1597750758983" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/misc.xml" timestamp="1596527306513" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/workspace.xml" timestamp="1603877741645" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/libraries/Flutter_Plugins.xml" timestamp="1603783610066" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/flutter_demo.iml" timestamp="1596527259375" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/modules.xml" timestamp="1596527259423" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/android/flutter_demo_android.iml" timestamp="1596527306508" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/runConfigurations/main_dart.xml" timestamp="1600169990797" />
+    <file path="/Users/jackshen/Documents/AsProjects/flutter_demo/.idea/vcs.xml" timestamp="1598962420736" />
+  </project-files>
+</conversion>

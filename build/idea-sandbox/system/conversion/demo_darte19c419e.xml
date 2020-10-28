@@ -1,0 +1,14 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/private/var/folders/14/kbmqhvfs0rvdqsb3dfmz3_l00000gn/T/demo.dart/.idea/workspace.xml" timestamp="1603880620606" />
+    <file path="/private/var/folders/14/kbmqhvfs0rvdqsb3dfmz3_l00000gn/T/demo.dart/.idea/demo.dart.iml" timestamp="1603880573660" />
+    <file path="/private/var/folders/14/kbmqhvfs0rvdqsb3dfmz3_l00000gn/T/demo.dart/.idea/modules.xml" timestamp="1603880573679" />
+  </project-files>
+</conversion>

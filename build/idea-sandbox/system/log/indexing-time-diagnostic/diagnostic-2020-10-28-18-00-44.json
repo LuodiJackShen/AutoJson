@@ -1,0 +1,93 @@
+{
+  "appInfo" : {
+    "build" : "202.7660.26",
+    "buildDate" : "Tue, 6 Oct 2020 16:32:45 +0800",
+    "productCode" : "IC",
+    "generated" : "Wed, 28 Oct 2020 18:00:44 +0800",
+    "os" : "macOS 10.15.7",
+    "runtime" : "JetBrains s.r.o. 11.0.8 11.0.8+10-b944.34"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 536870912,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "demo.dart",
+    "numberOfFileProviders" : 1,
+    "totalNumberOfFiles" : 1,
+    "times" : {
+      "indexingTime" : "369 ms",
+      "scanFilesTime" : "194 ms",
+      "pushPropertiesTime" : "8 ms",
+      "indexExtensionsTime" : "< 1 ms",
+      "pushPropertiesStart" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "pushPropertiesEnd" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "scanFilesStart" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "scanFilesEnd" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "indexExtensionsStart" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "indexExtensionsEnd" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "indexingStart" : "Wed, 28 Oct 2020 18:00:44 +0800",
+      "indexingEnd" : "Wed, 28 Oct 2020 18:00:44 +0800"
+    },
+    "numberOfIndexingThreads" : 4,
+    "totalStatsPerFileType" : [ {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalIndexingTime" : "100.0%",
+      "partOfTotalContentLoadingTime" : "100.0%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "40 B",
+      "indexingSpeed" : "370 B/s",
+      "biggestContributors" : [ {
+        "providerName" : "Module 'demo.dart'",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "40 B",
+        "partOfTotalIndexingTimeOfThisFileType" : "100.0%"
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : "96.6%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "40 B",
+      "indexingSpeed" : "384 B/s"
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : "2.0%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "40 B",
+      "indexingSpeed" : "18.45 kB/s"
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : "1.4%",
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : "40 B",
+      "indexingSpeed" : "26.38 kB/s"
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'demo.dart'",
+      "totalNumberOfFiles" : 1,
+      "totalIndexingTime" : "141 ms",
+      "statsPerFileType" : [ {
+        "fileType" : "PLAIN_TEXT",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : "40 B",
+        "partOfTotalIndexingTime" : "100.0%",
+        "partOfTotalContentLoadingTime" : "100.0%"
+      } ],
+      "statsPerIndexer" : [ {
+        "indexId" : "TodoIndex",
+        "partOfTotalIndexingTime" : "96.6%"
+      }, {
+        "indexId" : "Trigram.Index",
+        "partOfTotalIndexingTime" : "2.0%"
+      }, {
+        "indexId" : "IdIndex",
+        "partOfTotalIndexingTime" : "1.4%"
+      } ],
+      "fastIndexers" : [ ]
+    } ]
+  }
+}
