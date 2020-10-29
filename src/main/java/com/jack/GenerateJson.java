@@ -17,6 +17,7 @@ import com.intellij.psi.PsiFile;
 import com.intellij.psi.SyntheticElement;
 import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.util.PsiUtilBase;
+import com.sun.xml.bind.v2.TODO;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -45,7 +46,7 @@ public class GenerateJson extends AnAction {
     private String mFileContent = "";
     private boolean isHasThirdImport = false;
     private int mClassLine = -1;
-    private int mLastImportLine = -1;
+    private int mLastRightBraces = -1;
 
     @Override
     public void actionPerformed(AnActionEvent e) {
@@ -60,39 +61,48 @@ public class GenerateJson extends AnAction {
                 return;
             }
 
-            JSON_PACKAGE_IMPORT = "import 'package:json_annotation/json_annotation.dart';\n\n";
-            PART_IMPORT = "part '" + mFileName + ".g.dart';\n\n";
+            JSON_PACKAGE_IMPORT = "import 'package:json_annotation/json_annotation.dart';\n";
+            PART_IMPORT = "part '" + mFileName + ".g.dart';\n";
             ANNOTATION = "@JsonSerializable()\n";
             if (isHasThirdImport) {
                 ANNOTATION = "@JsonSerializable(explicitToJson: true)\n";
             }
-            JSON_METHOD = "    factory " + mClassName
+            JSON_METHOD = "\nfactory " + mClassName
                     + ".fromJson(Map<String, dynamic> json) => _$" + mClassName
                     + "FromJson(json);\n\n"
-                    + "     Map<String, dynamic> toJson() => _$"
+                    + "Map<String, dynamic> toJson() => _$"
                     + mClassName
-                    + "ToJson(this);\n\n";
+                    + "ToJson(this);\n";
 
             int line = mClassLine;
+            System.out.println("############# " + line);
             if (line == -1) {
-                line = mCaret.getVisualPosition().line;
+                showInfoDialog("AutoJson: Can not find Class.");
+                return;
             }
-            int column = mCaret.getVisualPosition().column;
-            mCaret.moveToVisualPosition(new VisualPosition(line - 1 == -1 ? 0 : line - 1, 0));
+
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
-                mDocument.insertString(mCaret.getOffset(), ANNOTATION);
-                mDocument.insertString(0, JSON_PACKAGE_IMPORT + PART_IMPORT);
+                mDocument.insertString(0, JSON_PACKAGE_IMPORT);
             });
 
+            line += 1;
+            mCaret.moveToVisualPosition(new VisualPosition(Math.max(line - 1, 0), 0));
+            WriteCommandAction.runWriteCommandAction(mProject, () -> {
+                mDocument.insertString(mCaret.getOffset(), ANNOTATION);
+            });
 
-            mCaret.moveToVisualPosition(new VisualPosition(line + 7, 0));
+            line += 1;
+            mCaret.moveToVisualPosition(new VisualPosition(Math.max(line - 2, 0), 0));
+            WriteCommandAction.runWriteCommandAction(mProject, () -> {
+                mDocument.insertString(mCaret.getOffset(), PART_IMPORT);
+            });
+
+            mLastRightBraces += (line - mClassLine + 1);
+            mCaret.moveToVisualPosition(new VisualPosition(mLastRightBraces, 0));
             int offset = mCaret.getOffset();
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
                 mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
             });
-
-            mCaret.moveToVisualPosition(new VisualPosition(line + 7, column));
-            selectionModel.selectWordAtCaret(true);
         }
     }
 
@@ -116,7 +126,6 @@ public class GenerateJson extends AnAction {
     private void initParams(AnActionEvent e) {
         isHasThirdImport = false;
         mClassLine = -1;
-        mLastImportLine = -1;
 
         mEditor = e.getRequiredData(CommonDataKeys.EDITOR);
         mProject = e.getProject();
@@ -141,13 +150,12 @@ public class GenerateJson extends AnAction {
         }
 
         if (mFileContent != null && !mFileContent.equals("")) {
-            int index = mFileContent.lastIndexOf("import");
+            int index = mFileContent.lastIndexOf("}");
             if (index != -1) {
                 String targetStr = mFileContent.substring(0, index);
                 String[] lines = targetStr.split("\n");
-                mLastImportLine = lines.length;
+                mLastRightBraces = lines.length;
             }
-
         }
 //        mClass = getTargetClass(mEditor, mFile);
 //        mClassName = mClass.getName();

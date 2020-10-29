@@ -57,11 +57,11 @@ public class GenerateJaguar extends AnAction {
                 return;
             }
 
-            JSON_PACKAGE_IMPORT = "import 'package:jaguar_serializer/jaguar_serializer.dart';\n\n";
-            PART_IMPORT = "part '" + mFileName + ".jser.dart';\n\n";
+            JSON_PACKAGE_IMPORT = "import 'package:jaguar_serializer/jaguar_serializer.dart';\n";
+            PART_IMPORT = "part '" + mFileName + ".jser.dart';\n";
             ANNOTATION = "@GenSerializer()\n";
             String classStr = ANNOTATION + "class " + mClassName + "Serializer extends Serializer<"
-                    + mClassName + "> with _$" + mClassName + "Serializer{}\n\n";
+                    + mClassName + "> with _$" + mClassName + "Serializer{}\n";
 
             mCaret.moveToVisualPosition(new VisualPosition(0, 0));
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
