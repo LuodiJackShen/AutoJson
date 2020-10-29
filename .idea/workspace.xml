@@ -9,16 +9,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +72,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jV7huFh0iOIv0xaGFtAgGgGxc1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -229,26 +225,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="1398" height="553" key="GridCell.Tab.0.bottom" timestamp="1603960305475">
+    <state width="1398" height="553" key="GridCell.Tab.0.bottom" timestamp="1603960973561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603960305475" />
-    <state width="1398" height="553" key="GridCell.Tab.0.center" timestamp="1603960305473">
+    <state width="1398" height="553" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603960973561" />
+    <state width="1398" height="553" key="GridCell.Tab.0.center" timestamp="1603960973560">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603960305473" />
-    <state width="1398" height="553" key="GridCell.Tab.0.left" timestamp="1603960305472">
+    <state width="1398" height="553" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603960973560" />
+    <state width="1398" height="553" key="GridCell.Tab.0.left" timestamp="1603960973560">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603960305472" />
-    <state width="1398" height="553" key="GridCell.Tab.0.right" timestamp="1603960305474">
+    <state width="1398" height="553" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603960973559" />
+    <state width="1398" height="553" key="GridCell.Tab.0.right" timestamp="1603960973561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603960305474" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1603956289539">
+    <state width="1398" height="553" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603960973561" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1603960971510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603956289539" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603960971510" />
     <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1603959945232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
