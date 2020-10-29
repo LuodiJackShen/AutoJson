@@ -63,13 +63,14 @@ public class GenerateJaguar extends AnAction {
             String classStr = ANNOTATION + "class " + mClassName + "Serializer extends Serializer<"
                     + mClassName + "> with _$" + mClassName + "Serializer{}\n";
 
-            mCaret.moveToVisualPosition(new VisualPosition(0, 0));
+            mCaret.moveToVisualPosition(new VisualPosition(Math.max(mClassLine - 1, 0), 0));
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
-                mDocument.insertString(0, classStr);
-                mDocument.insertString(0, JSON_PACKAGE_IMPORT + PART_IMPORT);
+                mDocument.insertString(mCaret.getOffset(), JSON_PACKAGE_IMPORT + PART_IMPORT + classStr);
             });
 
             selectionModel.selectWordAtCaret(true);
+        } else {
+            showInfoDialog("AutoJson: Can not find any Class.");
         }
     }
 
@@ -103,12 +104,12 @@ public class GenerateJaguar extends AnAction {
         mClassName = parseClassName(mFileContent);
         if (mFileContent != null && !mFileContent.equals("")) {
             int index = mFileContent.indexOf(mClassName);
-            String targetStr = mFileContent.substring(0, index);
-            String[] lines = targetStr.split("\n");
-            mClassLine = lines.length;
+            if (index != -1) {
+                String targetStr = mFileContent.substring(0, index);
+                String[] lines = targetStr.split("\n");
+                mClassLine = lines.length;
+            }
         }
-//        mClass = getTargetClass(mEditor, mFile);
-//        mClassName = mClass.getName();
     }
 
     private String parseClassName(String fileContent) {

@@ -19,8 +19,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jack/GenerateJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jack/GenerateJson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/AutoJson/lib/AutoJson-1.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/AutoJson/lib/AutoJson-1.0.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/pluginsXMLIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/pluginsXMLIds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/pluginsXMLIds.json.etag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/pluginsXMLIds.json.etag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" afterDir="false" />
@@ -81,8 +79,6 @@
       <change beforePath="$PROJECT_DIR$/build/libs/AutoJson-1.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/AutoJson-1.0.6.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/address.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/user.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,37 +277,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1603878362735">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1603950059278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603878362735" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603950059278" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603936307680">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="1398" height="493" key="GridCell.Tab.0.bottom" timestamp="1603942328962">
+    <state width="1398" height="491" key="GridCell.Tab.0.bottom" timestamp="1603951060192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="493" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603942328962" />
-    <state width="1398" height="493" key="GridCell.Tab.0.center" timestamp="1603942328960">
+    <state width="1398" height="491" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603951060192" />
+    <state width="1398" height="491" key="GridCell.Tab.0.center" timestamp="1603951060190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="493" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603942328960" />
-    <state width="1398" height="493" key="GridCell.Tab.0.left" timestamp="1603942328960">
+    <state width="1398" height="491" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603951060190" />
+    <state width="1398" height="491" key="GridCell.Tab.0.left" timestamp="1603951060190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="493" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603942328960" />
-    <state width="1398" height="493" key="GridCell.Tab.0.right" timestamp="1603942328961">
+    <state width="1398" height="491" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603951060190" />
+    <state width="1398" height="491" key="GridCell.Tab.0.right" timestamp="1603951060191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="493" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603942328961" />
+    <state width="1398" height="491" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603951060191" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1603878716046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603878716046" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1603942367756">
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1603950110352">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1603942367756" />
+    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1603950110352" />
   </component>
 </project>

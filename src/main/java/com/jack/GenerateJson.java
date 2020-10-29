@@ -75,9 +75,7 @@ public class GenerateJson extends AnAction {
                     + "ToJson(this);\n";
 
             int line = mClassLine;
-            System.out.println("############# " + line);
             if (line == -1) {
-                showInfoDialog("AutoJson: Can not find Class.");
                 return;
             }
 
@@ -103,6 +101,8 @@ public class GenerateJson extends AnAction {
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
                 mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
             });
+        } else {
+            showInfoDialog("AutoJson: Can not find any Class.");
         }
     }
 
@@ -144,9 +144,12 @@ public class GenerateJson extends AnAction {
         mClassName = parseClassName(mFileContent);
         if (mFileContent != null && !mFileContent.equals("")) {
             int index = mFileContent.indexOf(mClassName);
-            String targetStr = mFileContent.substring(0, index);
-            String[] lines = targetStr.split("\n");
-            mClassLine = lines.length;
+            if (index != -1) {
+                String targetStr = mFileContent.substring(0, index);
+                String[] lines = targetStr.split("\n");
+                mClassLine = lines.length;
+            }
+
         }
 
         if (mFileContent != null && !mFileContent.equals("")) {

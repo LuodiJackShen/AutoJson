@@ -2,34 +2,40 @@
   <component name="ActionsLocalSummary">
     <data>
       <entry key="$SelectAll">
-        <ActionSummary times="5" last="1603879977868" />
+        <ActionSummary times="6" last="1603949890514" />
       </entry>
       <entry key="$Undo">
-        <ActionSummary times="80" last="1603942324685" />
+        <ActionSummary times="90" last="1603949908458" />
       </entry>
       <entry key="AddToFavoritesPopup">
         <ActionSummary times="1" last="1603940588464" />
       </entry>
+      <entry key="AutoJson.GenerateAction">
+        <ActionSummary times="3" last="1603949900093" />
+      </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="52" last="1603942313982" />
+        <ActionSummary times="68" last="1603945426731" />
       </entry>
       <entry key="EditorCopy">
         <ActionSummary times="9" last="1603942244384" />
       </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="1" last="1603949890930" />
+      </entry>
       <entry key="EditorDeleteToWordStart">
-        <ActionSummary times="2" last="1603940535747" />
+        <ActionSummary times="3" last="1603945408773" />
       </entry>
       <entry key="EditorDown">
-        <ActionSummary times="92" last="1603942294894" />
+        <ActionSummary times="111" last="1603949901657" />
       </entry>
       <entry key="EditorDownWithSelection">
         <ActionSummary times="18" last="1603942004619" />
       </entry>
       <entry key="EditorEnter">
-        <ActionSummary times="21" last="1603942262011" />
+        <ActionSummary times="29" last="1603945431122" />
       </entry>
       <entry key="EditorLeft">
-        <ActionSummary times="7" last="1603942225970" />
+        <ActionSummary times="15" last="1603945435871" />
       </entry>
       <entry key="EditorLineEnd">
         <ActionSummary times="5" last="1603940626084" />
@@ -38,25 +44,31 @@
         <ActionSummary times="19" last="1603942293181" />
       </entry>
       <entry key="EditorLineStart">
-        <ActionSummary times="2" last="1603942313686" />
+        <ActionSummary times="3" last="1603945430828" />
       </entry>
       <entry key="EditorLineStartWithSelection">
         <ActionSummary times="8" last="1603942305717" />
       </entry>
       <entry key="EditorPaste">
-        <ActionSummary times="15" last="1603942250835" />
+        <ActionSummary times="17" last="1603949898714" />
       </entry>
       <entry key="EditorPreviousWord">
         <ActionSummary times="2" last="1603880659174" />
       </entry>
       <entry key="EditorRight">
-        <ActionSummary times="5" last="1603942244664" />
+        <ActionSummary times="6" last="1603945420875" />
       </entry>
       <entry key="EditorRightWithSelection">
         <ActionSummary times="1" last="1603940534418" />
       </entry>
+      <entry key="EditorSplitLine">
+        <ActionSummary times="1" last="1603945432953" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="1" last="1603945407314" />
+      </entry>
       <entry key="EditorUp">
-        <ActionSummary times="135" last="1603942292813" />
+        <ActionSummary times="145" last="1603949902618" />
       </entry>
       <entry key="EditorUpWithSelection">
         <ActionSummary times="29" last="1603942305396" />
@@ -65,16 +77,16 @@
         <ActionSummary times="1" last="1603940591407" />
       </entry>
       <entry key="Generate">
-        <ActionSummary times="31" last="1603942317148" />
+        <ActionSummary times="39" last="1603949899459" />
       </entry>
       <entry key="ReformatCode">
-        <ActionSummary times="5" last="1603938320277" />
+        <ActionSummary times="9" last="1603949910138" />
       </entry>
       <entry key="SaveAll">
         <ActionSummary times="9" last="1603940786958" />
       </entry>
       <entry key="ShowIntentionActions">
-        <ActionSummary times="3" last="1603942233772" />
+        <ActionSummary times="4" last="1603949894963" />
       </entry>
       <entry key="WelcomeScreen.OpenProject">
         <ActionSummary times="5" last="1603881098912" />
