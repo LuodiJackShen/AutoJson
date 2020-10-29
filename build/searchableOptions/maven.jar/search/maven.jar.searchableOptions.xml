@@ -8,23 +8,23 @@
     <option name="add" path="ActionManager" hit="Add Maven Projects" />
     <option name="maven" path="ActionManager" hit="Add Maven Projects" />
     <option name="projects" path="ActionManager" hit="Add Maven Projects" />
-    <option name="add" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="and" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="maven" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="project" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="projects" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="reload" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="the" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="to" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="tree" path="ActionManager" hit="Add and reload Maven project to the projects tree" />
-    <option name="add" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="and" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="maven" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="projects" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="reload" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="the" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="to" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
-    <option name="tree" path="ActionManager" hit="Add and reload Maven projects to the projects tree" />
+    <option name="add" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="and" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="import" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="maven" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="project" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="projects" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="the" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="to" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="tree" path="ActionManager" hit="Add and import Maven project to the projects tree" />
+    <option name="add" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="and" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="import" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="maven" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="projects" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="the" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="to" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
+    <option name="tree" path="ActionManager" hit="Add and import Maven projects to the projects tree" />
     <option name="add" path="ActionManager" hit="Add as Maven Project" />
     <option name="as" path="ActionManager" hit="Add as Maven Project" />
     <option name="maven" path="ActionManager" hit="Add as Maven Project" />
@@ -235,16 +235,15 @@
     <option name="settings" path="ActionManager" hit="Open settings.xml" />
     <option name="xml" path="ActionManager" hit="Open settings.xml" />
     <option name="property" path="ActionManager" hit="Property" />
-    <option name="all" path="ActionManager" hit="Reload All Maven Projects" />
-    <option name="maven" path="ActionManager" hit="Reload All Maven Projects" />
-    <option name="projects" path="ActionManager" hit="Reload All Maven Projects" />
-    <option name="reload" path="ActionManager" hit="Reload All Maven Projects" />
-    <option name="project" path="ActionManager" hit="Reload project" />
-    <option name="reload" path="ActionManager" hit="Reload project" />
-    <option name="maven" path="ActionManager" hit="Reload selected Maven projects" />
-    <option name="projects" path="ActionManager" hit="Reload selected Maven projects" />
-    <option name="reload" path="ActionManager" hit="Reload selected Maven projects" />
-    <option name="selected" path="ActionManager" hit="Reload selected Maven projects" />
+    <option name="reimport" path="ActionManager" hit="Reimport" />
+    <option name="all" path="ActionManager" hit="Reimport All Maven Projects" />
+    <option name="maven" path="ActionManager" hit="Reimport All Maven Projects" />
+    <option name="projects" path="ActionManager" hit="Reimport All Maven Projects" />
+    <option name="reimport" path="ActionManager" hit="Reimport All Maven Projects" />
+    <option name="maven" path="ActionManager" hit="Reimport selected Maven projects" />
+    <option name="projects" path="ActionManager" hit="Reimport selected Maven projects" />
+    <option name="reimport" path="ActionManager" hit="Reimport selected Maven projects" />
+    <option name="selected" path="ActionManager" hit="Reimport selected Maven projects" />
     <option name="configuration" path="ActionManager" hit="Remove Run Configuration" />
     <option name="remove" path="ActionManager" hit="Remove Run Configuration" />
     <option name="run" path="ActionManager" hit="Remove Run Configuration" />
@@ -330,28 +329,28 @@
   <configurable id="MavenSettings" configurable_name="Maven">
     <option name="-t" hit="-T option" />
     <option name="option" hit="-T option" />
-    <option name="" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="1" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="2" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="2020" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="3" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="8da1f9add5eaff238a403058a25a22be5a339336" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="caches" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="com" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="files-2" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="gradle" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="idea" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="ideaic" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="ideaic-2020" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="intellij" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="jackshen" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="jetbrains" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="lib" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="maven" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="maven3" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="modules-2" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="plugins" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
-    <option name="users" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/maven/lib/maven3" />
+    <option name="" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="1" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="121" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="201" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="6668" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="b3e6761562a6905b8dcc204c6d01decee42ea763" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="caches" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="com" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="files-2" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="gradle" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="idea" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="ideaiu" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="ideaiu-201" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="intellij" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="jackshen" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="jetbrains" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="lib" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="maven" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="maven3" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="modules-2" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="plugins" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
+    <option name="users" hit="/Users/jackshen/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIU/201.6668.121/b3e6761562a6905b8dcc204c6d01decee42ea763/ideaIU-201.6668.121/plugins/maven/lib/maven3" />
     <option name="always" hit="Always update snapshots" />
     <option name="snapshots" hit="Always update snapshots" />
     <option name="update" hit="Always update snapshots" />
@@ -373,8 +372,6 @@
     <option name="fail" hit="Fail At End" />
     <option name="fail" hit="Fail Fast" />
     <option name="fast" hit="Fail Fast" />
-    <option name="fail" hit="Fail Never" />
-    <option name="never" hit="Fail Never" />
     <option name="fatal" hit="Fatal" />
     <option name="info" hit="Info" />
     <option name="local" hit="Local repository:" />
@@ -387,6 +384,8 @@
     <option name="fail" hit="Multiproject build fail policy:" />
     <option name="multiproject" hit="Multiproject build fail policy:" />
     <option name="policy" hit="Multiproject build fail policy:" />
+    <option name="fail" hit="Never Fail" />
+    <option name="never" hit="Never Fail" />
     <option name="global" hit="No Global Policy" />
     <option name="no" hit="No Global Policy" />
     <option name="policy" hit="No Global Policy" />
@@ -399,6 +398,11 @@
     <option name="traces" hit="Print exception stack traces" />
     <option name="count" hit="Thread count" />
     <option name="thread" hit="Thread count" />
+    <option name="incices" hit="Update Incices on project open" />
+    <option name="on" hit="Update Incices on project open" />
+    <option name="open" hit="Update Incices on project open" />
+    <option name="project" hit="Update Incices on project open" />
+    <option name="update" hit="Update Incices on project open" />
     <option name="plugin" hit="Use plugin registry" />
     <option name="registry" hit="Use plugin registry" />
     <option name="use" hit="Use plugin registry" />
@@ -486,14 +490,24 @@
     <option name="compiler" hit="Detect compiler automatically" />
     <option name="detect" hit="Detect compiler automatically" />
     <option name="documentation" hit="Documentation" />
-    <option name="detect" hit="Don''t detect" />
-    <option name="don" hit="Don''t detect" />
-    <option name="t" hit="Don''t detect" />
+    <option name="detect" hit="Don't detect" />
+    <option name="don" hit="Don't detect" />
+    <option name="t" hit="Don't detect" />
     <option name="build" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="directory" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="exclude" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="project_root" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
     <option name="target" hit="Exclude build directory (%PROJECT_ROOT%/target)" />
+    <option name="flexmojos" hit="Flexmojos" />
+    <option name="compiler" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="configuration" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="files" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="flex" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="flexmojos" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="generate" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="importing" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="projects" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
+    <option name="when" hit="Generate Flex compiler configuration files when importing Flexmojos projects" />
     <option name="folders" hit="Generated sources folders:" />
     <option name="generated" hit="Generated sources folders:" />
     <option name="sources" hit="Generated sources folders:" />
@@ -505,14 +519,13 @@
     <option name="in" hit="Keep project files in:" />
     <option name="keep" hit="Keep project files in:" />
     <option name="project" hit="Keep project files in:" />
-    <option name="and" hit="Keep source and test folders on project reload" />
-    <option name="folders" hit="Keep source and test folders on project reload" />
-    <option name="keep" hit="Keep source and test folders on project reload" />
-    <option name="on" hit="Keep source and test folders on project reload" />
-    <option name="project" hit="Keep source and test folders on project reload" />
-    <option name="reload" hit="Keep source and test folders on project reload" />
-    <option name="source" hit="Keep source and test folders on project reload" />
-    <option name="test" hit="Keep source and test folders on project reload" />
+    <option name="and" hit="Keep source and test folders on reimport" />
+    <option name="folders" hit="Keep source and test folders on reimport" />
+    <option name="keep" hit="Keep source and test folders on reimport" />
+    <option name="on" hit="Keep source and test folders on reimport" />
+    <option name="reimport" hit="Keep source and test folders on reimport" />
+    <option name="source" hit="Keep source and test folders on reimport" />
+    <option name="test" hit="Keep source and test folders on reimport" />
     <option name="be" hit="Phase to be used for folders update:" />
     <option name="folders" hit="Phase to be used for folders update:" />
     <option name="for" hit="Phase to be used for folders update:" />

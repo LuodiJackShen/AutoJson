@@ -7,7 +7,10 @@ group 'com.jack'
 version '1.6'
 
 repositories {
+    mavenLocal()
+    maven { url "https://maven.aliyun.com/repository/public" }
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -16,12 +19,17 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.2.3'
+//    version '2020.2.3'
+    version 'IU-201.6668.121'
     plugins 'java'
 }
 patchPluginXml {
     changeNotes """
-        - v1.6  ①检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。② 检测到有三方import时，自动将其对齐到part代码行上面.<br>
+        - v1.6<br>
+        &emsp;&emsp;&emsp;1、支持Android Studio 4.1。<br>
+        &emsp;&emsp;&emsp;2、检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。<br> 
+        &emsp;&emsp;&emsp;3、检测到有三方import时，自动将其对齐到part代码行上面.<br>
+               
         - v1.5  修复部分问题；<br>
         - v1.4  终于支持jaguar_serializer了；<br>
         - v1.3  修改extends、implements关键词带来的问题；细节优化；<br>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
-    <option name="" path="ActionManager" hit="" />
     <option name="analyze" path="ActionManager" hit="Analyze Stack Trace From Task..." />
     <option name="from" path="ActionManager" hit="Analyze Stack Trace From Task..." />
     <option name="stack" path="ActionManager" hit="Analyze Stack Trace From Task..." />

@@ -75,11 +75,6 @@
     <option name="project" path="ActionManager" hit="Perform cleanup for all working copy directories in the project" />
     <option name="the" path="ActionManager" hit="Perform cleanup for all working copy directories in the project" />
     <option name="working" path="ActionManager" hit="Perform cleanup for all working copy directories in the project" />
-    <option name="refresh" path="ActionManager" hit="Refresh" />
-    <option name="copies" path="ActionManager" hit="Refresh working copies information" />
-    <option name="information" path="ActionManager" hit="Refresh working copies information" />
-    <option name="refresh" path="ActionManager" hit="Refresh working copies information" />
-    <option name="working" path="ActionManager" hit="Refresh working copies information" />
     <option name="a" path="ActionManager" hit="Relocate working copy to a different URL" />
     <option name="copy" path="ActionManager" hit="Relocate working copy to a different URL" />
     <option name="different" path="ActionManager" hit="Relocate working copy to a different URL" />

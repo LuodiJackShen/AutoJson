@@ -16,9 +16,9 @@
     <option name="show" path="ActionManager" hit="Show Code Coverage Data" />
   </configurable>
   <configurable id="coverage" configurable_name="Coverage">
-    <option name="activate" hit="Activate Coverage View" />
-    <option name="coverage" hit="Activate Coverage View" />
-    <option name="view" hit="Activate Coverage View" />
+    <option name="activate" hit="Activate Coverage View " />
+    <option name="coverage" hit="Activate Coverage View " />
+    <option name="view" hit="Activate Coverage View " />
     <option name="active" hit="Add to the active suites" />
     <option name="add" hit="Add to the active suites" />
     <option name="suites" hit="Add to the active suites" />

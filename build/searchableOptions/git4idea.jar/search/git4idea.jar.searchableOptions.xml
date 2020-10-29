@@ -10,7 +10,6 @@
     <option name="rebase" path="ActionManager" hit="Abort Rebase" />
     <option name="abort" path="ActionManager" hit="Abort Revert" />
     <option name="revert" path="ActionManager" hit="Abort Revert" />
-    <option name="add" path="ActionManager" hit="Add" />
     <option name="add" path="ActionManager" hit="Add selected files to .gitignore" />
     <option name="files" path="ActionManager" hit="Add selected files to .gitignore" />
     <option name="gitignore" path="ActionManager" hit="Add selected files to .gitignore" />
@@ -32,8 +31,6 @@
     <option name="reword" path="ActionManager" hit="Change commit message via reword option of git rebase or amend" />
     <option name="via" path="ActionManager" hit="Change commit message via reword option of git rebase or amend" />
     <option name="checkout" path="ActionManager" hit="Checkout" />
-    <option name="checkout" path="ActionManager" hit="Checkout Revision" />
-    <option name="revision" path="ActionManager" hit="Checkout Revision" />
     <option name="checkout" path="ActionManager" hit="Checkout Selected..." />
     <option name="selected" path="ActionManager" hit="Checkout Selected..." />
     <option name="a" path="ActionManager" hit="Checkout selected revision or a branch on selected commit" />
@@ -79,8 +76,6 @@
     <option name="tag" path="ActionManager" hit="Create new tag pointing to this commit" />
     <option name="this" path="ActionManager" hit="Create new tag pointing to this commit" />
     <option name="to" path="ActionManager" hit="Create new tag pointing to this commit" />
-    <option name="commits" path="ActionManager" hit="Drop Commits" />
-    <option name="drop" path="ActionManager" hit="Drop Commits" />
     <option name="commit" path="ActionManager" hit="Edit Commit Message..." />
     <option name="edit" path="ActionManager" hit="Edit Commit Message..." />
     <option name="message" path="ActionManager" hit="Edit Commit Message..." />
@@ -141,10 +136,8 @@
     <option name="which" path="ActionManager" hit="Produce a new commit, which reverts the changes made in the original commit" />
     <option name="pull" path="ActionManager" hit="Pull..." />
     <option name="rebase" path="ActionManager" hit="Rebase..." />
-    <option name="refresh" path="ActionManager" hit="Refresh" />
     <option name="remotes" path="ActionManager" hit="Remotes..." />
     <option name="rename" path="ActionManager" hit="Rename..." />
-    <option name="reset" path="ActionManager" hit="Reset" />
     <option name="branch" path="ActionManager" hit="Reset Current Branch to Here..." />
     <option name="current" path="ActionManager" hit="Reset Current Branch to Here..." />
     <option name="here" path="ActionManager" hit="Reset Current Branch to Here..." />
@@ -154,7 +147,6 @@
     <option name="reset" path="ActionManager" hit="Reset HEAD..." />
     <option name="conflicts" path="ActionManager" hit="Resolve Conflicts..." />
     <option name="resolve" path="ActionManager" hit="Resolve Conflicts..." />
-    <option name="revert" path="ActionManager" hit="Revert" />
     <option name="commit" path="ActionManager" hit="Revert Commit" />
     <option name="revert" path="ActionManager" hit="Revert Commit" />
     <option name="git" path="ActionManager" hit="Show Git Repository Log..." />
@@ -187,8 +179,6 @@
     <option name="which" path="ActionManager" hit="Show the dialog for interactive rebase which allows to squash, fixup, reorder, remove and reword commits" />
     <option name="commit" path="ActionManager" hit="Skip Commit" />
     <option name="skip" path="ActionManager" hit="Skip Commit" />
-    <option name="commits" path="ActionManager" hit="Squash Commits..." />
-    <option name="squash" path="ActionManager" hit="Squash Commits..." />
     <option name="into" path="ActionManager" hit="Squash Into..." />
     <option name="squash" path="ActionManager" hit="Squash Into..." />
     <option name="changes" path="ActionManager" hit="Stash Changes..." />

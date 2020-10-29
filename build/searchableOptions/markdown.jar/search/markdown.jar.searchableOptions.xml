@@ -513,6 +513,8 @@
     <option name="hide" hit="Hide errors in code fences" />
     <option name="in" hit="Hide errors in code fences" />
     <option name="install" hit="Install" />
+    <option name="browser" hit="JCEF Browser" />
+    <option name="jcef" hit="JCEF Browser" />
     <option name="javafx" hit="JavaFX WebView" />
     <option name="webview" hit="JavaFX WebView" />
     <option name="from" hit="Load from URI:" />

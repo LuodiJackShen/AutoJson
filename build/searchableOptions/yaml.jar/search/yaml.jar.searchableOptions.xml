@@ -51,7 +51,6 @@
     <option name="set" hit="Set from..." />
     <option name="smart" path="Tabs and Indents" hit="Smart tabs" />
     <option name="tabs" path="Tabs and Indents" hit="Smart tabs" />
-    <option name="spaces" path="Spaces" hit="Spaces" />
     <option name="size" path="Tabs and Indents" hit="Tab size:" />
     <option name="tab" path="Tabs and Indents" hit="Tab size:" />
     <option name="and" path="Tabs and Indents" hit="Tabs and Indents" />
@@ -165,7 +164,6 @@
     <option name="hyphen" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
     <option name="insert" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
     <option name="on" path="Wrapping and Braces" hit="Automatically insert hyphen on enter" />
-    <option name="before" path="Spaces" hit="Before ':'" />
     <option name="binary" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="expressions" path="Wrapping and Braces" hit="Binary expressions" />
     <option name="block" path="Wrapping and Braces" hit="Block mapping on new line" />
@@ -175,14 +173,11 @@
     <option name="on" path="Wrapping and Braces" hit="Block mapping on new line" />
     <option name="braces" path="Wrapping and Braces" hit="Braces placement" />
     <option name="placement" path="Wrapping and Braces" hit="Braces placement" />
-    <option name="brackets" path="Spaces" hit="Brackets" />
     <option name="calls" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="chained" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="method" path="Wrapping and Braces" hit="Chained method calls" />
     <option name="annotations" path="Wrapping and Braces" hit="Class annotations" />
     <option name="class" path="Wrapping and Braces" hit="Class annotations" />
-    <option name="braces" path="Spaces" hit="Code braces" />
-    <option name="code" path="Spaces" hit="Code braces" />
     <option name="at" path="Wrapping and Braces" hit="Comment at first column" />
     <option name="column" path="Wrapping and Braces" hit="Comment at first column" />
     <option name="comment" path="Wrapping and Braces" hit="Comment at first column" />
@@ -329,7 +324,6 @@
     <option name="throws" path="Wrapping and Braces" hit="Throws list" />
     <option name="guides" path="Wrapping and Braces" hit="Visual guides" />
     <option name="visual" path="Wrapping and Braces" hit="Visual guides" />
-    <option name="within" path="Spaces" hit="Within" />
     <option name="after" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="list" path="Wrapping and Braces" hit="Wrap after modifier list" />
     <option name="modifier" path="Wrapping and Braces" hit="Wrap after modifier list" />

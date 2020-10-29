@@ -71,6 +71,8 @@
     <option name="stub" path="ActionManager" hit="Exclude from Stub Generation" />
     <option name="gant" path="ActionManager" hit="Gant Script" />
     <option name="script" path="ActionManager" hit="Gant Script" />
+    <option name="generate" path="ActionManager" hit="Generate GroovyDoc..." />
+    <option name="groovydoc" path="ActionManager" hit="Generate GroovyDoc..." />
     <option name="generate" path="ActionManager" hit="Generate toString() method" />
     <option name="method" path="ActionManager" hit="Generate toString() method" />
     <option name="tostring" path="ActionManager" hit="Generate toString() method" />
@@ -80,6 +82,9 @@
     <option name="getter" path="ActionManager" hit="Generates getter" />
     <option name="generates" path="ActionManager" hit="Generates setter" />
     <option name="setter" path="ActionManager" hit="Generates setter" />
+    <option name="documentation" path="ActionManager" hit="Generating Groovy documentation" />
+    <option name="generating" path="ActionManager" hit="Generating Groovy documentation" />
+    <option name="groovy" path="ActionManager" hit="Generating Groovy documentation" />
     <option name="getter" path="ActionManager" hit="Getter" />
     <option name="and" path="ActionManager" hit="Getter and Setter" />
     <option name="getter" path="ActionManager" hit="Getter and Setter" />
@@ -90,6 +95,10 @@
     <option name="groovy" path="ActionManager" hit="Groovy Class" />
     <option name="console" path="ActionManager" hit="Groovy Console..." />
     <option name="groovy" path="ActionManager" hit="Groovy Console..." />
+    <option name="groovy" path="ActionManager" hit="Groovy IDE Scripting Shell" />
+    <option name="ide" path="ActionManager" hit="Groovy IDE Scripting Shell" />
+    <option name="scripting" path="ActionManager" hit="Groovy IDE Scripting Shell" />
+    <option name="shell" path="ActionManager" hit="Groovy IDE Scripting Shell" />
     <option name="groovy" path="ActionManager" hit="Groovy Resources" />
     <option name="resources" path="ActionManager" hit="Groovy Resources" />
     <option name="groovy" path="ActionManager" hit="Groovy Script" />

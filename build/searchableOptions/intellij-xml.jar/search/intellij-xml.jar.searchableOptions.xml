@@ -78,6 +78,24 @@
     <option name="emmet" path="ActionManager" hit="Next Emmet Edit Point" />
     <option name="next" path="ActionManager" hit="Next Emmet Edit Point" />
     <option name="point" path="ActionManager" hit="Next Emmet Edit Point" />
+    <option name="browser" path="ActionManager" hit="Open in Browser" />
+    <option name="in" path="ActionManager" hit="Open in Browser" />
+    <option name="open" path="ActionManager" hit="Open in Browser" />
+    <option name="browser" path="ActionManager" hit="Open in default browser" />
+    <option name="default" path="ActionManager" hit="Open in default browser" />
+    <option name="in" path="ActionManager" hit="Open in default browser" />
+    <option name="open" path="ActionManager" hit="Open in default browser" />
+    <option name="browser" path="ActionManager" hit="Open selected file in browser" />
+    <option name="file" path="ActionManager" hit="Open selected file in browser" />
+    <option name="in" path="ActionManager" hit="Open selected file in browser" />
+    <option name="open" path="ActionManager" hit="Open selected file in browser" />
+    <option name="selected" path="ActionManager" hit="Open selected file in browser" />
+    <option name="browser" path="ActionManager" hit="Open selected file in default browser" />
+    <option name="default" path="ActionManager" hit="Open selected file in default browser" />
+    <option name="file" path="ActionManager" hit="Open selected file in default browser" />
+    <option name="in" path="ActionManager" hit="Open selected file in default browser" />
+    <option name="open" path="ActionManager" hit="Open selected file in default browser" />
+    <option name="selected" path="ActionManager" hit="Open selected file in default browser" />
     <option name="edit" path="ActionManager" hit="Previous Emmet Edit Point" />
     <option name="emmet" path="ActionManager" hit="Previous Emmet Edit Point" />
     <option name="point" path="ActionManager" hit="Previous Emmet Edit Point" />
@@ -268,6 +286,10 @@
     <option name="comment" path="Code Generation" hit="Add a space at comment start" />
     <option name="space" path="Code Generation" hit="Add a space at comment start" />
     <option name="start" path="Code Generation" hit="Add a space at comment start" />
+    <option name="add" path="Other" hit="Add for JSX attributes:" />
+    <option name="attributes" path="Other" hit="Add for JSX attributes:" />
+    <option name="for" path="Other" hit="Add for JSX attributes:" />
+    <option name="jsx" path="Other" hit="Add for JSX attributes:" />
     <option name="after" path="Other" hit="After tag name" />
     <option name="name" path="Other" hit="After tag name" />
     <option name="tag" path="Other" hit="After tag name" />
@@ -279,11 +301,15 @@
     <option name="attribute" path="Other" hit="Around &quot;=&quot; in attribute" />
     <option name="in" path="Other" hit="Around &quot;=&quot; in attribute" />
     <option name="arrangement" path="Arrangement" hit="Arrangement" />
+    <option name="based" path="Other" hit="Based on type" />
+    <option name="on" path="Other" hit="Based on type" />
+    <option name="type" path="Other" hit="Based on type" />
     <option name="at" path="Code Generation" hit="Block comment at first column" />
     <option name="block" path="Code Generation" hit="Block comment at first column" />
     <option name="column" path="Code Generation" hit="Block comment at first column" />
     <option name="comment" path="Code Generation" hit="Block comment at first column" />
     <option name="first" path="Code Generation" hit="Block comment at first column" />
+    <option name="braces" path="Other" hit="Braces" />
     <option name="chop" path="Other" hit="Chop down if long" />
     <option name="down" path="Other" hit="Chop down if long" />
     <option name="if" path="Other" hit="Chop down if long" />
@@ -378,6 +404,7 @@
     <option name="no" path="Other" hit="No" />
     <option name="none" path="Other" hit="None" />
     <option name="other" path="Other" hit="Other" />
+    <option name="quotes" path="Other" hit="Quotes" />
     <option name="before" path="Other" hit="Remove new line before:" />
     <option name="line" path="Other" hit="Remove new line before:" />
     <option name="new" path="Other" hit="Remove new line before:" />
@@ -402,12 +429,6 @@
     <option name="and" path="Tabs and Indents" hit="Tabs and Indents" />
     <option name="indents" path="Tabs and Indents" hit="Tabs and Indents" />
     <option name="tabs" path="Tabs and Indents" hit="Tabs and Indents" />
-    <option name="and" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
-    <option name="html" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
-    <option name="indents" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
-    <option name="tags" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
-    <option name="use" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
-    <option name="within" path="Tabs and Indents" hit="Use HTML indents within   and   tags" />
     <option name="character" path="Tabs and Indents" hit="Use tab character" />
     <option name="tab" path="Tabs and Indents" hit="Use tab character" />
     <option name="use" path="Tabs and Indents" hit="Use tab character" />
@@ -635,6 +656,16 @@
     <option name="columns" path="Other" hit="columns" />
   </configurable>
   <configurable id="reference.idesettings.emmet" configurable_name="Emmet">
+    <option name="custom" hit="Custom..." />
+    <option name="emmet" hit="Emmet" />
+    <option name="enter" hit="Enter" />
+    <option name="abbreviation" hit="Expand  abbreviation with" />
+    <option name="expand" hit="Expand  abbreviation with" />
+    <option name="with" hit="Expand  abbreviation with" />
+    <option name="space" hit="Space" />
+    <option name="tab" hit="Tab" />
+  </configurable>
+  <configurable id="reference.idesettings.emmet.xml" configurable_name="HTML">
     <option name="add" hit="Add edit point at the end of template" />
     <option name="at" hit="Add edit point at the end of template" />
     <option name="edit" hit="Add edit point at the end of template" />
@@ -656,8 +687,6 @@
     <option name="separator" hit="Class name's modifier separator:" />
     <option name="comment" hit="Comment tags" />
     <option name="tags" hit="Comment tags" />
-    <option name="custom" hit="Custom..." />
-    <option name="emmet" hit="Emmet" />
     <option name="emmet" hit="Enable XML/HTML Emmet" />
     <option name="enable" hit="Enable XML/HTML Emmet" />
     <option name="html" hit="Enable XML/HTML Emmet" />
@@ -674,22 +703,17 @@
     <option name="while" hit="Enable automatic URL recognition while wrapping text with   tag" />
     <option name="with" hit="Enable automatic URL recognition while wrapping text with   tag" />
     <option name="wrapping" hit="Enable automatic URL recognition while wrapping text with   tag" />
-    <option name="enter" hit="Enter" />
     <option name="escape" hit="Escape" />
-    <option name="abbreviation" hit="Expand  abbreviation with" />
-    <option name="expand" hit="Expand  abbreviation with" />
-    <option name="with" hit="Expand  abbreviation with" />
     <option name="by" hit="Filters enabled by default" />
     <option name="default" hit="Filters enabled by default" />
     <option name="enabled" hit="Filters enabled by default" />
     <option name="filters" hit="Filters enabled by default" />
+    <option name="html" hit="HTML" />
     <option name="element" hit="Short element prefix:" />
     <option name="prefix" hit="Short element prefix:" />
     <option name="short" hit="Short element prefix:" />
     <option name="line" hit="Single line" />
     <option name="single" hit="Single line" />
-    <option name="space" hit="Space" />
-    <option name="tab" hit="Tab" />
     <option name="line" hit="Trim line markers" />
     <option name="markers" hit="Trim line markers" />
     <option name="trim" hit="Trim line markers" />
@@ -740,6 +764,30 @@
     <option name="property" hit="Catalog property file:" />
     <option name="catalog" hit="XML Catalog" />
     <option name="xml" hit="XML Catalog" />
+  </configurable>
+  <configurable id="reference.settings.ide.settings.web.browsers" configurable_name="Web Browsers">
+    <option name="custom" hit="Custom path" />
+    <option name="path" hit="Custom path" />
+    <option name="browser" hit="Default Browser:" />
+    <option name="default" hit="Default Browser:" />
+    <option name="first" hit="First listed" />
+    <option name="listed" hit="First listed" />
+    <option name="files" hit="For HTML files" />
+    <option name="for" hit="For HTML files" />
+    <option name="html" hit="For HTML files" />
+    <option name="files" hit="For XML files" />
+    <option name="for" hit="For XML files" />
+    <option name="xml" hit="For XML files" />
+    <option name="browser" hit="Show browser popup in the editor" />
+    <option name="editor" hit="Show browser popup in the editor" />
+    <option name="in" hit="Show browser popup in the editor" />
+    <option name="popup" hit="Show browser popup in the editor" />
+    <option name="show" hit="Show browser popup in the editor" />
+    <option name="the" hit="Show browser popup in the editor" />
+    <option name="default" hit="System default" />
+    <option name="system" hit="System default" />
+    <option name="browsers" hit="Web Browsers" />
+    <option name="web" hit="Web Browsers" />
   </configurable>
 </options>
 

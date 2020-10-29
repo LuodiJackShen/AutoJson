@@ -223,11 +223,14 @@
     <option name="the" hit="Add unambiguous imports on the fly" />
     <option name="unambiguous" hit="Add unambiguous imports on the fly" />
     <option name="kotlin" hit="Kotlin" />
-    <option name="fly" hit="Optimize imports on the fly" />
-    <option name="imports" hit="Optimize imports on the fly" />
-    <option name="on" hit="Optimize imports on the fly" />
-    <option name="optimize" hit="Optimize imports on the fly" />
-    <option name="the" hit="Optimize imports on the fly" />
+    <option name="current" hit="Optimize imports on the fly (for current project)" />
+    <option name="fly" hit="Optimize imports on the fly (for current project)" />
+    <option name="for" hit="Optimize imports on the fly (for current project)" />
+    <option name="imports" hit="Optimize imports on the fly (for current project)" />
+    <option name="on" hit="Optimize imports on the fly (for current project)" />
+    <option name="optimize" hit="Optimize imports on the fly (for current project)" />
+    <option name="project" hit="Optimize imports on the fly (for current project)" />
+    <option name="the" hit="Optimize imports on the fly (for current project)" />
   </configurable>
   <configurable id="editor.breadcrumbs" configurable_name="Breadcrumbs">
     <option name="kotlin" hit="Kotlin" />
