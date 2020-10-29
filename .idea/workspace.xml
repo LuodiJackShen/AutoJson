@@ -10,75 +10,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/com/jack/GenerateJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/com/jack/GenerateJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jack/GenerateJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jack/GenerateJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/options/debugger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/AutoJson/lib/AutoJson-1.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/plugins/AutoJson/lib/AutoJson-1.0.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.appinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/LocalHistory/changes.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/contentHashes.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/idindex/values_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/textContentHashes_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/todoindex/values_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/.persistent/trigram.index/values_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.project.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.storage.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex_inputs_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.storage.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes_inputs_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.storage_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/compositeHashId_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/fileIdToHashId_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/compositeHashId_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.storage_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/fileIdToHashId_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/AutoJson-1.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/AutoJson-1.0.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/jack" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AutoJson [runIde]">
+  <component name="RunManager" selected="Gradle.AutoJson [buildPlugin]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -259,9 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutoJson [buildPlugin]" />
         <item itemvalue="Gradle.AutoJson [runIde]" />
         <item itemvalue="Gradle.AutoJson [publishPlugin]" />
-        <item itemvalue="Gradle.AutoJson [buildPlugin]" />
       </list>
     </recent_temporary>
   </component>
@@ -285,22 +222,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="1398" height="491" key="GridCell.Tab.0.bottom" timestamp="1603951060192">
+    <state width="1398" height="491" key="GridCell.Tab.0.bottom" timestamp="1603951482625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603951060192" />
-    <state width="1398" height="491" key="GridCell.Tab.0.center" timestamp="1603951060190">
+    <state width="1398" height="491" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603951482625" />
+    <state width="1398" height="491" key="GridCell.Tab.0.center" timestamp="1603951482624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603951060190" />
-    <state width="1398" height="491" key="GridCell.Tab.0.left" timestamp="1603951060190">
+    <state width="1398" height="491" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603951482624" />
+    <state width="1398" height="491" key="GridCell.Tab.0.left" timestamp="1603951482623">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603951060190" />
-    <state width="1398" height="491" key="GridCell.Tab.0.right" timestamp="1603951060191">
+    <state width="1398" height="491" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603951482623" />
+    <state width="1398" height="491" key="GridCell.Tab.0.right" timestamp="1603951482624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="491" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603951060191" />
+    <state width="1398" height="491" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603951482624" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1603878716046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

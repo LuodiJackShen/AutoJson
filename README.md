@@ -14,6 +14,7 @@
 3. 点击鼠标右键，选择 ```JsonSerializable```或者```JaguarSerializer```，或者直接点击 ```Control+Enter (Windows:Alt+Insert)```。
 
 ### 版本
+* v1.6  ①检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。② 检测到有三方import时，自动将其对齐到part代码行上面.  
 * v1.5  修复部分问题；
 * v1.4  终于支持jaguar_serializer了；
 * v1.3  修复extends、implements关键词带来的问题；
