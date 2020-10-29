@@ -26,17 +26,6 @@
       <br>
     ]]></description>
 
-    <change-notes><![CDATA[
-        - v1.6  ①检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。② 检测到有三方import时，自动将其对齐到part代码行上面.<br>
-        - v1.5  修复部分问题；<br>
-        - v1.4  终于支持jaguar_serializer了；<br>
-        - v1.3  修改extends、implements关键词带来的问题；细节优化；<br>
-        - v1.2  细节优化。<br>
-        - v1.1  ① 体验提升：不用选中类名即可生成需要的代码;② 功能限制：仅在 <b>xxx.dart</b> 文件中可用此插件。<br>
-        - v1.0  实现基本功能:自动生成序列化需要的代码。<br>
-    ]]>
-    </change-notes>
-
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
