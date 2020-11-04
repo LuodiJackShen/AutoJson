@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.jack'
-version '1.6'
+version '1.7'
 
 repositories {
     mavenLocal()
@@ -25,10 +25,11 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-        - v1.6<br>
+        - v1.6 / 1.7<br>
         &emsp;&emsp;&emsp;1、支持Android Studio 4.1。<br>
         &emsp;&emsp;&emsp;2、检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。<br> 
         &emsp;&emsp;&emsp;3、检测到有三方import时，自动将其对齐到part代码行上面.<br>
+        &emsp;&emsp;&emsp;4、android 4.1 以下和Idea 2020.2.3以下请使用 AutoJson 1.5 版本.<br>
                
         - v1.5  修复部分问题；<br>
         - v1.4  终于支持jaguar_serializer了；<br>
