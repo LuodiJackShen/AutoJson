@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.jack'
-version '1.7'
+version '1.8'
 
 repositories {
     mavenLocal()
@@ -25,6 +25,11 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
+        - v1.8<br>
+        &emsp;&emsp;&emsp; 1、新增：JsonSerializable-Terminal，生成代码的同时自动运行flutter pub run命令<br>
+        &emsp;&emsp;&emsp; 2、新增：JaguarSerializer-Terminal，生成代码的同时自动运行flutter pub run命令<br>
+        &emsp;&emsp;&emsp; 3、新增：AutoJson-Terminal，自动运行flutter pub run命令<br>
+        
         - v1.6 / 1.7<br>
         &emsp;&emsp;&emsp;1、支持Android Studio 4.1。<br>
         &emsp;&emsp;&emsp;2、检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性。<br> 
