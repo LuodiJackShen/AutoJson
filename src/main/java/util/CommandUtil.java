@@ -1,11 +1,9 @@
 package util;
 
-import com.intellij.ide.ui.EditorOptionsTopHitProvider;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.ui.content.Content;
-import com.intellij.ui.content.impl.ContentImpl;
 
 import org.jetbrains.plugins.terminal.ShellTerminalWidget;
 import org.jetbrains.plugins.terminal.TerminalToolWindowFactory;
