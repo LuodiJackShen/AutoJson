@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
-    <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/master">
+    <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/main">
         LuodiJackShen
     </vendor>
 
@@ -21,8 +21,8 @@
       <a href="https://github.com/LuodiJackShen/AutoJson">GitHub repo</a>: https://github.com/LuodiJackShen/AutoJson <br>
       If you find a Bug or have some good ideas, please create a Issue in <a href="https://github.com/LuodiJackShen/AutoJson/issues/new">GitHub</a>
       <br><br>
-      <a href="https://github.com/LuodiJackShen/AutoJson/blob/master/image/use_guide.gif">操作演示：</a><br>
-      <img src="https://raw.githubusercontent.com/LuodiJackShen/AutoJson/master/image/use_guide.gif">
+      <a href="https://github.com/LuodiJackShen/AutoJson/blob/main/image/use_guide.gif">操作演示：</a><br>
+      <img src="https://raw.githubusercontent.com/LuodiJackShen/AutoJson/main/image/use_guide.gif">
       <br>
     ]]></description>
 
@@ -45,6 +45,15 @@
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
         </action>
 
+        <action id="AutoJsonTerminal.GenerateAction" class="com.jack.GenerateJsonTerminal"
+            text="JsonSerializable-Terminal"
+            description="com.jack.GenerateJson code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt L" />
+        </action>
+
         <action id="JaguarSerializer.GenerateAction" class="com.jack.GenerateJaguar"
             text="JaguarSerializer"
             description="com.jack.GenerateJson code that json need automatically.">
@@ -52,6 +61,23 @@
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G" />
+        </action>
+
+        <action id="JaguarSerializerTerminal.GenerateAction" class="com.jack.GenerateJaguarTerminal"
+            text="JaguarSerializer-Terminal"
+            description="com.jack.GenerateJson code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt P" />
+        </action>
+
+        <action id="AJTerminal.GenerateAction" class="com.jack.RunCommand" text="AutoJson-Terminal"
+            description="com.jack.GenerateJson code that json need automatically.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt M" />
         </action>
     </actions>
 </idea-plugin>

@@ -18,6 +18,7 @@ import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.util.PsiUtilBase;
 
 import org.jetbrains.annotations.NotNull;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -45,6 +46,8 @@ public class GenerateJaguar extends AnAction {
     private String mFileContent = "";
     private int mClassLine = -1;
 
+    protected boolean isRunCommand = false;
+
     @Override
     public void actionPerformed(AnActionEvent e) {
         initParams(e);
@@ -71,7 +74,9 @@ public class GenerateJaguar extends AnAction {
 
             selectionModel.selectWordAtCaret(true);
 
-            CommandUtil.runFlutterPubRun(e);
+            if (isRunCommand) {
+                CommandUtil.runFlutterPubRun(e);
+            }
         } else {
             DialogUtil.showInfo("AutoJson: Can not find any Class.");
         }

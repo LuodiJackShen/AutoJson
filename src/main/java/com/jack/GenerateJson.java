@@ -49,6 +49,8 @@ public class GenerateJson extends AnAction {
     private int mClassLine = -1;
     private int mLastRightBraces = -1;
 
+    protected boolean isRunCommand = false;
+
     @Override
     public void actionPerformed(AnActionEvent e) {
         initParams(e);
@@ -103,7 +105,9 @@ public class GenerateJson extends AnAction {
                 mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
             });
 
-            CommandUtil.runFlutterPubRun(e);
+            if (isRunCommand) {
+                CommandUtil.runFlutterPubRun(e);
+            }
         } else {
             DialogUtil.showInfo("AutoJson: Can not find any Class.");
         }
