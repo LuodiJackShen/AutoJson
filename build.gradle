@@ -21,7 +21,7 @@ dependencies {
 intellij {
 //    version '2020.2.3'
     version 'IU-201.6668.121'
-    plugins 'java'
+    plugins 'java', 'com.jetbrains.sh:201.6668.74', "org.jetbrains.plugins.terminal:201.6668.74"
 }
 patchPluginXml {
     changeNotes """

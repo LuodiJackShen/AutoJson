@@ -24,6 +24,9 @@ import org.jetbrains.annotations.NotNull;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import util.CommandUtil;
+import util.DialogUtil;
+
 /**
  * work with json_serializable
  * by shenmingliang1
@@ -101,8 +104,10 @@ public class GenerateJson extends AnAction {
             WriteCommandAction.runWriteCommandAction(mProject, () -> {
                 mDocument.insertString(offset == -1 ? 0 : offset, JSON_METHOD);
             });
+
+            CommandUtil.runFlutterPubRun(e);
         } else {
-            showInfoDialog("AutoJson: Can not find any Class.");
+            DialogUtil.showInfo("AutoJson: Can not find any Class.");
         }
     }
 
@@ -187,9 +192,5 @@ public class GenerateJson extends AnAction {
             PsiClass target = PsiTreeUtil.getParentOfType(element, PsiClass.class);
             return target instanceof SyntheticElement ? null : target;
         }
-    }
-
-    private void showInfoDialog(String message) {
-        Messages.showErrorDialog(message, "Info");
     }
 }

@@ -5,15 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4f89708-cfe0-4c58-b5c8-2ecc85f91319" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CommandUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DialogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +69,24 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AutoJson" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutoJson" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutoJson" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AutoJson" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -61,6 +99,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dart File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,6 +155,44 @@
         <option name="taskNames">
           <list>
             <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoJson [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoJson [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,8 +276,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutoJson [buildPlugin]" />
-        <item itemvalue="Gradle.AutoJson [publishPlugin]" />
         <item itemvalue="Gradle.AutoJson [runIde]" />
+        <item itemvalue="Gradle.AutoJson [dependencies]" />
+        <item itemvalue="Gradle.AutoJson [build]" />
+        <item itemvalue="Gradle.AutoJson [publishPlugin]" />
       </list>
     </recent_temporary>
   </component>
@@ -228,37 +307,70 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="1398" height="553" key="GridCell.Tab.0.bottom" timestamp="1604370296114">
+    <state width="1398" height="558" key="GridCell.Tab.0.bottom" timestamp="1605096250991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604370296114" />
-    <state width="1398" height="553" key="GridCell.Tab.0.center" timestamp="1604370296113">
+    <state width="1398" height="558" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605096250991" />
+    <state width="1398" height="558" key="GridCell.Tab.0.center" timestamp="1605096250990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604370296113" />
-    <state width="1398" height="553" key="GridCell.Tab.0.left" timestamp="1604370296112">
+    <state width="1398" height="558" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605096250990" />
+    <state width="1398" height="558" key="GridCell.Tab.0.left" timestamp="1605096250989">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604370296112" />
-    <state width="1398" height="553" key="GridCell.Tab.0.right" timestamp="1604370296113">
+    <state width="1398" height="558" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605096250989" />
+    <state width="1398" height="558" key="GridCell.Tab.0.right" timestamp="1605096250991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="553" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604370296113" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1603960971510">
+    <state width="1398" height="558" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605096250991" />
+    <state width="1398" height="558" key="GridCell.Tab.1.bottom" timestamp="1605096250994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603960971510" />
+    <state width="1398" height="558" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605096250994" />
+    <state width="1398" height="558" key="GridCell.Tab.1.center" timestamp="1605096250993">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="558" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605096250993" />
+    <state width="1398" height="558" key="GridCell.Tab.1.left" timestamp="1605096250992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="558" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605096250992" />
+    <state width="1398" height="558" key="GridCell.Tab.1.right" timestamp="1605096250993">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="558" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605096250993" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1605078771264">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605078771264" />
+    <state x="450" y="200" width="549" height="524" key="StructurePopup" timestamp="1605086720054">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="549" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1605086720054" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1605085738164">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1605085738164" />
     <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1603959945232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603959945232" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1603950110352">
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1605095887516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1603950110352" />
+    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1605095887516" />
+    <state width="300" height="36" key="javadoc.popup.new/0.23.1440.819@0.23.1440.819" timestamp="1605095155765" />
     <state x="319" y="62" key="new project wizard" timestamp="1603952478836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="319" y="62" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1603952478836" />
+    <state x="419" y="240" key="refactoring.ChangeSignatureDialog" timestamp="1605089447402">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="419" y="240" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1605089447402" />
+    <state x="385" y="196" width="769" height="676" key="search.everywhere.popup" timestamp="1605093822450">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="769" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605093822450" />
   </component>
 </project>

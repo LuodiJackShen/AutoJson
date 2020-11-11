@@ -1,5 +1,10 @@
 package com.jack;
 
+import com.intellij.execution.ExecutionException;
+import com.intellij.execution.configurations.GeneralCommandLine;
+import com.intellij.execution.process.OSProcessHandler;
+import com.intellij.execution.process.ProcessHandler;
+import com.intellij.execution.process.ScriptRunnerUtil;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
@@ -11,17 +16,34 @@ import com.intellij.openapi.editor.SelectionModel;
 import com.intellij.openapi.editor.VisualPosition;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
+import com.intellij.openapi.util.Disposer;
+import com.intellij.openapi.util.Pair;
+import com.intellij.openapi.wm.ToolWindow;
+import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.psi.PsiClass;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.SyntheticElement;
 import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.util.PsiUtilBase;
+import com.intellij.terminal.JBTerminalSystemSettingsProviderBase;
+import com.intellij.ui.content.Content;
+import com.intellij.ui.content.ContentManager;
+import com.intellij.ui.content.impl.TabbedContentImpl;
 
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.plugins.terminal.ShellTerminalWidget;
+import org.jetbrains.plugins.terminal.TerminalToolWindowFactory;
+import org.jetbrains.plugins.terminal.TerminalView;
 
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import util.CommandUtil;
+import util.DialogUtil;
 
 /**
  * work with jaguar_serializer
@@ -69,8 +91,10 @@ public class GenerateJaguar extends AnAction {
             });
 
             selectionModel.selectWordAtCaret(true);
+
+            CommandUtil.runFlutterPubRun(e);
         } else {
-            showInfoDialog("AutoJson: Can not find any Class.");
+            DialogUtil.showInfo("AutoJson: Can not find any Class.");
         }
     }
 
@@ -135,9 +159,5 @@ public class GenerateJaguar extends AnAction {
             PsiClass target = PsiTreeUtil.getParentOfType(element, PsiClass.class);
             return target instanceof SyntheticElement ? null : target;
         }
-    }
-
-    private void showInfoDialog(String message) {
-        Messages.showErrorDialog(message, "Info");
     }
 }
