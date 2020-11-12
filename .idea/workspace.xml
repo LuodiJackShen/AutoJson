@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4f89708-cfe0-4c58-b5c8-2ecc85f91319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguarTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJsonTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jack/RunCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJaguar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jack/GenerateJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,22 +277,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="699" height="544" key="GridCell.Tab.0.bottom" timestamp="1605102671442">
+    <state width="1398" height="544" key="GridCell.Tab.0.bottom" timestamp="1605102689952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="544" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605102671442" />
-    <state width="699" height="544" key="GridCell.Tab.0.center" timestamp="1605102671441">
+    <state width="1398" height="544" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605102689952" />
+    <state width="1398" height="544" key="GridCell.Tab.0.center" timestamp="1605102689951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="544" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605102671441" />
-    <state width="699" height="544" key="GridCell.Tab.0.left" timestamp="1605102671441">
+    <state width="1398" height="544" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605102689951" />
+    <state width="1398" height="544" key="GridCell.Tab.0.left" timestamp="1605102689950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="544" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605102671441" />
-    <state width="699" height="544" key="GridCell.Tab.0.right" timestamp="1605102671442">
+    <state width="1398" height="544" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605102689950" />
+    <state width="1398" height="544" key="GridCell.Tab.0.right" timestamp="1605102689951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="544" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605102671442" />
+    <state width="1398" height="544" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605102689951" />
     <state width="1398" height="558" key="GridCell.Tab.1.bottom" timestamp="1605096250994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

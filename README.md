@@ -23,4 +23,4 @@
 * v1.0  满足基本功能。
 
 ### 效果图
-![image](https://github.com/LuodiJackShen/AutoJson/blob/master/image/use_guide.gif)
+![image](https://github.com/LuodiJackShen/AutoJson/blob/main/image/use_guide.gif)
