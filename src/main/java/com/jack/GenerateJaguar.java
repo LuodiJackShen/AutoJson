@@ -23,6 +23,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import util.CommandUtil;
+import util.CommonUtil;
 import util.DialogUtil;
 
 /**
@@ -45,6 +46,7 @@ public class GenerateJaguar extends AnAction {
     private String mClassName = "";
     private String mFileContent = "";
     private int mClassLine = -1;
+    private String mFilePath = "";
 
     protected boolean isRunCommand = false;
 
@@ -75,7 +77,7 @@ public class GenerateJaguar extends AnAction {
             selectionModel.selectWordAtCaret(true);
 
             if (isRunCommand) {
-                CommandUtil.runFlutterPubRun(e);
+                CommandUtil.runFlutterPubRun(e, CommonUtil.findLibPathOfFile(e));
             }
         } else {
             DialogUtil.showInfo("AutoJson: Can not find any Class.");
@@ -105,6 +107,8 @@ public class GenerateJaguar extends AnAction {
         mDocument = mEditor.getDocument();
         mCaret = mEditor.getCaretModel();
         mFile = PsiUtilBase.getPsiFileInEditor(mEditor, mProject);
+        mFilePath = mFile.getOriginalFile().getVirtualFile().getPath();
+
         mFileName = mFile.getName();
         int dotIndex = mFileName.indexOf('.');
         mFileName = mFileName.substring(0, dotIndex);

@@ -23,6 +23,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import util.CommandUtil;
+import util.CommonUtil;
 import util.DialogUtil;
 
 /**
@@ -106,7 +107,7 @@ public class GenerateJson extends AnAction {
             });
 
             if (isRunCommand) {
-                CommandUtil.runFlutterPubRun(e);
+                CommandUtil.runFlutterPubRun(e, CommonUtil.findLibPathOfFile(e));
             }
         } else {
             DialogUtil.showInfo("AutoJson: Can not find any Class.");
