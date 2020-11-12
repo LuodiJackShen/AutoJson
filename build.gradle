@@ -19,9 +19,11 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-//    version '2020.2.3'
-    version 'IU-201.6668.121'
+//    version '2020.2.3'  //android studio 4.1以下及Idea 2020.2.3 ，不包括4.1
+    version 'IU-201.6668.121' //android studio 4.1
     plugins 'java', 'com.jetbrains.sh:201.6668.74', "org.jetbrains.plugins.terminal:201.6668.74"
+//    version 'IU-202.6397.94' //android studio 4.1.1
+//    plugins 'java', 'com.jetbrains.sh:202.6397.21', "org.jetbrains.plugins.terminal:202.6397.21"
 }
 patchPluginXml {
     changeNotes """

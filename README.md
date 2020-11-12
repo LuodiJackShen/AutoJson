@@ -14,6 +14,10 @@
 3. 点击鼠标右键，选择 ```JsonSerializable```或者```JaguarSerializer```，或者直接点击 ```Control+Enter (Windows:Alt+Insert)```。
 
 ### 版本
+* v1.8<br>
+        &emsp;&emsp;&emsp; 1、新增：JsonSerializable-Terminal，生成代码的同时自动运行flutter pub run命令<br>
+        &emsp;&emsp;&emsp; 2、新增：JaguarSerializer-Terminal，生成代码的同时自动运行flutter pub run命令<br>
+        &emsp;&emsp;&emsp; 3、新增：AutoJson-Terminal，自动运行flutter pub run命令<br>
 * v1.6  支持Android Studio 4.1; 检测到有自定义类时，自动给JsonSerializable加上 explicitToJson: true 属性; 检测到有三方import时，自动将其对齐到part代码行上面.  
 * v1.5  修复部分问题；
 * v1.4  终于支持jaguar_serializer了；

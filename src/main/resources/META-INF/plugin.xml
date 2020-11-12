@@ -1,6 +1,7 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
+    <idea-version since-build="201.0" until-build="201.*"/>
     <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/main">
         LuodiJackShen
     </vendor>

@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4f89708-cfe0-4c58-b5c8-2ecc85f91319" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +166,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AutoJson [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AutoJson [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,25 +197,6 @@
         <option name="taskNames">
           <list>
             <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AutoJson [publishPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publishPlugin" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -246,10 +261,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.AutoJson [buildPlugin]" />
+        <item itemvalue="Gradle.AutoJson [clean]" />
         <item itemvalue="Gradle.AutoJson [runIde]" />
         <item itemvalue="Gradle.AutoJson [dependencies]" />
         <item itemvalue="Gradle.AutoJson [build]" />
-        <item itemvalue="Gradle.AutoJson [publishPlugin]" />
       </list>
     </recent_temporary>
   </component>
@@ -277,22 +292,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603936307680" />
-    <state width="1398" height="544" key="GridCell.Tab.0.bottom" timestamp="1605102689952">
+    <state width="1398" height="584" key="GridCell.Tab.0.bottom" timestamp="1605169341321">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="544" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605102689952" />
-    <state width="1398" height="544" key="GridCell.Tab.0.center" timestamp="1605102689951">
+    <state width="1398" height="584" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605169341321" />
+    <state width="1398" height="584" key="GridCell.Tab.0.center" timestamp="1605169341320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="544" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605102689951" />
-    <state width="1398" height="544" key="GridCell.Tab.0.left" timestamp="1605102689950">
+    <state width="1398" height="584" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605169341320" />
+    <state width="1398" height="584" key="GridCell.Tab.0.left" timestamp="1605169341319">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="544" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605102689950" />
-    <state width="1398" height="544" key="GridCell.Tab.0.right" timestamp="1605102689951">
+    <state width="1398" height="584" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605169341319" />
+    <state width="1398" height="584" key="GridCell.Tab.0.right" timestamp="1605169341320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="544" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605102689951" />
+    <state width="1398" height="584" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605169341320" />
     <state width="1398" height="558" key="GridCell.Tab.1.bottom" timestamp="1605096250994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -309,10 +324,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="558" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605096250993" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1605078771264">
+    <state x="216" y="82" key="SettingsEditor" timestamp="1605169419213">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605078771264" />
+    <state x="216" y="82" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605169419213" />
     <state x="450" y="200" width="549" height="524" key="StructurePopup" timestamp="1605086720054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -321,19 +336,23 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1605085738164" />
+    <state x="0" y="0" width="1398" height="900" key="dock-window-1" timestamp="1605145214762">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="0" y="0" width="1398" height="900" key="dock-window-1/0.23.1440.819@0.23.1440.819" timestamp="1605145214762" />
     <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1603959945232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603959945232" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1605102449608">
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1605161731349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1605102449608" />
+    <state width="300" height="36" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1605161731349" />
     <state width="300" height="36" key="javadoc.popup.new/0.23.1440.819@0.23.1440.819" timestamp="1605095155765" />
-    <state x="319" y="62" key="new project wizard" timestamp="1603952478836">
+    <state x="319" y="62" key="new project wizard" timestamp="1605160097350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="319" y="62" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1603952478836" />
+    <state x="319" y="62" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1605160097350" />
     <state x="419" y="240" key="refactoring.ChangeSignatureDialog" timestamp="1605089447402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
