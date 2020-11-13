@@ -7,8 +7,49 @@
 
     <description><![CDATA[
       Automatically generate the code needed for json_serializable and jaguar_serializer and automatically run the <b>flutter pub run build_runner build -delete-conflicting-outputs</b> command. Makes developing flutter even easier!<br>
-      Usage:<br>
+      <b>Usage:</b><br>
+      Open the dart entity class file, right click the mouse, or just use the shortcut key: `Control+Enter` (Windows:`Alt+Insert`),<br>
+      You can click on AutoJson's support for five menu options, which have the following meanings:<br><br>
 
+      <table border="1">
+        <tr>
+            <th>Menu</th>
+            <th>Function Description</th>
+            <th>Note</th>
+        </tr>
+
+        <tr>
+            <td>AutoJson-Terminal</td>
+            <td>Only run the command: `flutter pub run build_runner build --delete-conflicting-outputs`</td>
+            <td>It is supported from 1.8 and only supports Android Studio 4.+</td>
+        </tr>
+
+        <tr>
+            <td>JaguarSerializer-Terminal</td>
+            <td>Generate the code needed for `JaguarSerializer`, and run the `flutter Pub run build_runner build --delete-conflicting-outputs` command</td>
+            <td>It is supported from 1.8 and only supports Android Studio 4.+</td>
+        </tr>
+
+        <tr>
+            <td>JaguarSerializer</td>
+            <td>Only generate the code needed for `JaguarSerializer`</td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>JsonSerializable-Terminal</td>
+            <td>Generate the code needed for `JsonSerializable`, and run the `flutter Pub run build_runner build --delete-conflicting-outputs` command</td>
+            <td>It is supported from 1.8 and only supports Android Studio 4.+</td>
+        </tr>
+
+        <tr>
+            <td>JsonSerializable</td>
+            <td>Only generate the code needed for `JsonSerializable`</td>
+            <td>&nbsp;</td>
+        </tr>
+      </table>
+
+      <br>
       <a href="https://github.com/LuodiJackShen/AutoJson">See README.md for more details</a><br>
     ]]></description>
 

@@ -15,10 +15,10 @@ import java.io.IOException;
 public class CommandUtil {
     public static void runFlutterPubRun(AnActionEvent e, @Nullable String filePath) {
         // 4.0.x
-        String terminalName = "Local (2)";
+//        String terminalName = "Local (2)";
 
         // 4.1.x
-        // String terminalName = "AutoJson";
+        String terminalName = "AutoJson";
 
         String workingDirectory = e.getProject().getBasePath();
         String command = "flutter pub run build_runner build --delete-conflicting-outputs";
@@ -34,17 +34,17 @@ public class CommandUtil {
             Content content = window.getContentManager().findContent(terminalName);
             if (content != null) {
                 // 4.0.x
-                terminalView.detachWidgetAndRemoveContent(content);
+//                terminalView.detachWidgetAndRemoveContent(content);
                 // 4.1.x
-                //terminalView.closeTab(content);
+                terminalView.closeTab(content);
             }
 
             Content localTerminal = window.getContentManager().findContent("Local");
             if (localTerminal != null) {
                 // 4.0.x
-                terminalView.detachWidgetAndRemoveContent(content);
+//                terminalView.detachWidgetAndRemoveContent(content);
                 // 4.1.x
-                //terminalView.closeTab(content);
+                terminalView.closeTab(content);
             }
         } catch (Exception exception) {}
 
@@ -55,9 +55,9 @@ public class CommandUtil {
             }
 
             // 4.0.x
-            ShellTerminalWidget terminalWidget = terminalView.createLocalShellWidget(workPath);
+//            ShellTerminalWidget terminalWidget = terminalView.createLocalShellWidget(workPath);
             // 4.1.x
-//          ShellTerminalWidget terminalWidget = terminalView.createLocalShellWidget(workPath, terminalName);
+            ShellTerminalWidget terminalWidget = terminalView.createLocalShellWidget(workPath, terminalName);
             terminalWidget.executeCommand(command);
         } catch (IOException exception) {
             DialogUtil.showInfo("Cannot run command:" + command + "  " + exception.getMessage());

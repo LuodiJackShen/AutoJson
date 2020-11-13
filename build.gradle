@@ -22,6 +22,7 @@ def shPlugin = 'com.jetbrains.sh:' + thirdPartyPluginVersion
 def terminalPlugin = 'org.jetbrains.plugins.terminal:' + thirdPartyPluginVersion
 intellij {
     version intellijVersion
+//    plugins 'java'
     plugins 'java', shPlugin, terminalPlugin
 }
 
