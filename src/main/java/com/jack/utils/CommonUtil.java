@@ -1,4 +1,4 @@
-package util;
+package com.jack.utils;
 
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;

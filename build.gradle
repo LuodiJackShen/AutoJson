@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.jack'
-version '2.0'
+version pluginVersion + '-' + intellijVersion
 
 repositories {
     mavenLocal()
@@ -18,16 +18,16 @@ dependencies {
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
+def shPlugin = 'com.jetbrains.sh:' + thirdPartyPluginVersion
+def terminalPlugin = 'org.jetbrains.plugins.terminal:' + thirdPartyPluginVersion
 intellij {
-//    version '2020.2.3'  //android studio 4.1以下及Idea 2020.2.3 ，不包括4.1
-    version 'IU-201.6668.121' //android studio 4.1
-    plugins 'java', 'com.jetbrains.sh:201.6668.74', "org.jetbrains.plugins.terminal:201.6668.74"
-//    version 'IU-202.6397.94' //android studio 4.1.1
-//    plugins 'java', 'com.jetbrains.sh:202.6397.21', "org.jetbrains.plugins.terminal:202.6397.21"
+    version intellijVersion
+    plugins 'java', shPlugin, terminalPlugin
 }
+
 patchPluginXml {
     changeNotes """
-        - v1.8<br>
+        - v1.9<br>
         &emsp;&emsp;&emsp; 1、新增：JsonSerializable-Terminal，生成代码的同时自动运行flutter pub run命令<br>
         &emsp;&emsp;&emsp; 2、新增：JaguarSerializer-Terminal，生成代码的同时自动运行flutter pub run命令<br>
         &emsp;&emsp;&emsp; 3、新增：AutoJson-Terminal，自动运行flutter pub run命令<br>

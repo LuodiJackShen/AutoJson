@@ -1,12 +1,12 @@
-package com.jack;
+package com.jack.actions;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 
 import org.jetbrains.annotations.NotNull;
 
-import util.CommandUtil;
-import util.CommonUtil;
+import com.jack.utils.CommandUtil;
+import com.jack.utils.CommonUtil;
 
 public class RunCommand extends AnAction {
     @Override

@@ -1,4 +1,4 @@
-package util;
+package com.jack.utils;
 
 import com.intellij.openapi.ui.Messages;
 

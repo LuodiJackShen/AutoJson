@@ -1,8 +1,8 @@
-package com.jack;
+package com.jack.actions;
 
 import com.intellij.openapi.actionSystem.AnActionEvent;
 
-public class GenerateJaguarTerminal extends GenerateJaguar {
+public class GenerateJsonTerminal extends GenerateJson {
     @Override
     public void actionPerformed(AnActionEvent e) {
         isRunCommand = true;

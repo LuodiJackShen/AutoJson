@@ -1,30 +1,15 @@
 <idea-plugin>
     <id>com.jack.plugin.autojson</id>
     <name>AutoJson</name>
-    <idea-version since-build="201.0" until-build="201.*"/>
-    <vendor email="luodijack@163.com" url="https://github.com/LuodiJackShen/AutoJson/tree/main">
+    <vendor email="luodijack@gmail.com" url="https://github.com/LuodiJackShen/AutoJson/tree/main">
         LuodiJackShen
     </vendor>
 
     <description><![CDATA[
-      在flutter工程的bean类中自动生成json_serializable(v1.0开始支持)和jaguar_serializer(v1.4开始支持)需要的序列化相关代码。<br>
-      Generate the serialization-related code json_serializable(v1.0 begin) and jaguar_serializer(v1.4 begin) needs automatically in the bean class of the flutter project.<br>
-      <br><br>
-      使用方式一(v1.1以上)：<br>
-      1、打开.dart文件。<br>
-      2、点击鼠标右键，选择 JsonSerializable或者JaguarSerializer，或者直接点击 Control+Enter (Windows:Alt+Insert)。<br>
-      <br>
-      使用方式二(v1.0以上)：<br>
-      1、打开.dart文件，双击鼠标左键选择 .dart 文件的类名<b>（最新版本可不用双击选中类名）</b>。<br>
-      2、点击鼠标右键，选择 选择 JsonSerializable或者JaguarSerializer，或者直接点击 Control+Enter (Windows:Alt+Insert)。<br>
-      <br><br>
-      Final:<br>
-      <a href="https://github.com/LuodiJackShen/AutoJson">GitHub repo</a>: https://github.com/LuodiJackShen/AutoJson <br>
-      If you find a Bug or have some good ideas, please create a Issue in <a href="https://github.com/LuodiJackShen/AutoJson/issues/new">GitHub</a>
-      <br><br>
-      <a href="https://github.com/LuodiJackShen/AutoJson/blob/main/image/use_guide.gif">操作演示：</a><br>
-      <img src="https://raw.githubusercontent.com/LuodiJackShen/AutoJson/main/image/use_guide.gif">
-      <br>
+      Automatically generate the code needed for json_serializable and jaguar_serializer and automatically run the <b>flutter pub run build_runner build -delete-conflicting-outputs</b> command. Makes developing flutter even easier!<br>
+      Usage:<br>
+
+      <a href="https://github.com/LuodiJackShen/AutoJson">See README.md for more details</a><br>
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -38,43 +23,43 @@
     </extensions>
 
     <actions>
-        <action id="AutoJson.GenerateAction" class="com.jack.GenerateJson" text="JsonSerializable"
-            description="com.jack.GenerateJson code that json need automatically.">
+        <action id="AutoJson.GenerateAction" class="com.jack.actions.GenerateJson" text="JsonSerializable"
+            description="com.jack.actions.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
         </action>
 
-        <action id="AutoJsonTerminal.GenerateAction" class="com.jack.GenerateJsonTerminal"
+        <action id="AutoJsonTerminal.GenerateAction" class="com.jack.actions.GenerateJsonTerminal"
             text="JsonSerializable-Terminal"
-            description="com.jack.GenerateJson code that json need automatically.">
+            description="com.jack.actions.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt L" />
         </action>
 
-        <action id="JaguarSerializer.GenerateAction" class="com.jack.GenerateJaguar"
+        <action id="JaguarSerializer.GenerateAction" class="com.jack.actions.GenerateJaguar"
             text="JaguarSerializer"
-            description="com.jack.GenerateJson code that json need automatically.">
+            description="com.jack.actions.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G" />
         </action>
 
-        <action id="JaguarSerializerTerminal.GenerateAction" class="com.jack.GenerateJaguarTerminal"
+        <action id="JaguarSerializerTerminal.GenerateAction" class="com.jack.actions.GenerateJaguarTerminal"
             text="JaguarSerializer-Terminal"
-            description="com.jack.GenerateJson code that json need automatically.">
+            description="com.jack.actions.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt P" />
         </action>
 
-        <action id="AJTerminal.GenerateAction" class="com.jack.RunCommand" text="AutoJson-Terminal"
-            description="com.jack.GenerateJson code that json need automatically.">
+        <action id="AJTerminal.GenerateAction" class="com.jack.actions.RunCommand" text="AutoJson-Terminal"
+            description="com.jack.actions.GenerateJson code that json need automatically.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
