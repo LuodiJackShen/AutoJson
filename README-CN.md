@@ -20,3 +20,6 @@
 ## 其他
 有任何问题请随时提 [issue](https://github.com/LuodiJackShen/AutoJson/issues).  
 如果您觉得还不错，麻烦点个小星星✨✨。
+
+## Demo
+![image](https://github.com/LuodiJackShen/AutoJson/blob/main/images/demo.gif)

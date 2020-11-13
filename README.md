@@ -1,6 +1,6 @@
 # AutoJson [![as plugin](https://img.shields.io/jetbrains/plugin/d/11600-autojson.svg)](https://plugins.jetbrains.com/plugin/11600-autojson) [![GitHub stars](https://img.shields.io/github/stars/LuodiJackShen/AutoJson)](https://github.com/LuodiJackShen/AutoJson/stargazers) [![GitHub forks](https://img.shields.io/github/forks/LuodiJackShen/AutoJson)](https://github.com/LuodiJackShen/AutoJson/network)
 
-[English](https://github.com/LuodiJackShen/AutoJson/blob/master/README.md) | [简体中文](https://github.com/LuodiJackShen/AutoJson/blob/master/README-CN.md)
+[English](https://github.com/LuodiJackShen/AutoJson/blob/main/README.md) | [简体中文](https://github.com/LuodiJackShen/AutoJson/blob/main/README-CN.md)
 
 Automatically generate the code needed for `json_serializable` and `jaguar_serializer` and automatically run the `flutter pub run build_runner build -delete-conflicting-outputs` command. Makes developing flutter even easier!
 
@@ -22,3 +22,6 @@ You can click on AutoJson's support for five menu options, which have the follow
 ## Other
 If you have any question, please feel free to ask [issue](https://github.com/LuodiJackShen/AutoJson/issues).  
 If you feel good, please click the little star ✨✨.
+
+## Demo
+![image](https://github.com/LuodiJackShen/AutoJson/blob/main/images/demo.gif)
