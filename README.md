@@ -9,8 +9,16 @@ Open `Preferences` and `Plugins`(Windows:`File`,`Settings` and `Plugins`), then 
 
 ## Usage
 Open the dart entity class file, right click the mouse, or just use the shortcut key: `Control+Enter` (Windows:`Alt+Insert`),    
-You can click on AutoJson's support for five menu options, which have the following meanings.  
+You can click on AutoJson's support for three menu options, which have the following meanings.
 
+| Menu | Function Description | Note |
+| ---- | ---- | ---- |
+| AJ-Build Only | Only run the command: `flutter pub run build_runner build --delete-conflicting-outputs` | It is supported from 1.8 and only supports Android Studio 4.+ |
+| AJ-Generate Only | Only generate the code needed for `JaguarSerializer` or `json_serializable` |  | 
+| AJ-Generate and Build | Generate the code needed for `JsonSerializable` or `json_serializable`, and run the `flutter Pub run build_runner build --delete-conflicting-outputs` command | It is supported from 1.8 and only supports Android Studio 4.+ |
+
+##### Compatible with version 2.x user habits:
+You can also click on 'Code' -> 'AutoJson' in the Android Studio menu bar, and you will find that AutoJson supports five menu options, which are as follows:
 | Menu | Function Description | Note |
 | ---- | ---- | ---- |
 | AutoJson-Terminal | Only run the command: `flutter pub run build_runner build --delete-conflicting-outputs` | It is supported from 1.8 and only supports Android Studio 4.+ |

@@ -9,8 +9,35 @@
       Automatically generate the code needed for json_serializable and jaguar_serializer and automatically run the <b>flutter pub run build_runner build -delete-conflicting-outputs</b> command. Makes developing flutter even easier!<br>
       <b>Usage:</b><br>
       Open the dart entity class file, right click the mouse, or just use the shortcut key: `Control+Enter` (Windows:`Alt+Insert`),<br>
-      You can click on AutoJson's support for five menu options, which have the following meanings:<br><br>
+      You can click on AutoJson's support for five three options, which have the following meanings:<br><br>
+        <table border="1">
+        <tr>
+            <th>Menu</th>
+            <th>Function Description</th>
+            <th>Note</th>
+        </tr>
 
+        <tr>
+            <td>AJ-Build Only</td>
+            <td>Only run the command: `flutter pub run build_runner build --delete-conflicting-outputs`</td>
+            <td>It is supported from 1.8 and only supports Android Studio 4.+ </td>
+        </tr>
+
+        <tr>
+            <td>AJ-Generate Only</td>
+            <td>Only generate the code needed for `JaguarSerializer` or `json_serializable`</td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>AJ-Generate and Build</td>
+            <td>Generate the code needed for `JsonSerializable` or `json_serializable`, and run the `flutter Pub run build_runner build --delete-conflicting-outputs` command</td>
+            <td>It is supported from 1.8 and only supports Android Studio 4.+</td>
+        </tr>
+      </table>
+      <br><br>
+      <b>Compatible with version 2.x user habits:</b><br>
+      You can also click on 'Code' -> 'AutoJson' in the Android Studio menu bar, and you will find that AutoJson supports five menu options, which are as follows:<br><br>
       <table border="1">
         <tr>
             <th>Menu</th>
@@ -64,47 +91,55 @@
     </extensions>
 
     <actions>
-        <action id="AutoJson.GenerateAction" class="com.jack.actions.GenerateJson" text="JsonSerializable"
-            description="com.jack.actions.GenerateJson code that json need automatically.">
+        <action id="AutoJson.BuildOnlyAction" class="com.jack.actions.RunCommand"
+            text="AJ-Build Only"
+            description="only run 'flutter pub run build_runner build'.">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
             <add-to-group group-id="EditorPopupMenu" anchor="first" />
-            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
         </action>
+
+        <action id="AutoJson.GenerateOnlyAction" class="com.jack.actions.GenerateAction"
+            text="AJ-Generate Only"
+            description="only generate code that json_annotation or jaguar_serializer needs.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+        </action>
+
+        <action id="AutoJson.GenerateAndBuildAction" class="com.jack.actions.GenerateAndBuildAction"
+            text="AJ-Generate and Build"
+            description="generate code and run 'flutter pub run build_runner build'.">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+        </action>
+
+        <!-- old  start     -->
+        <group popup="true" text="AutoJson" id="AutoJson" description="OpenAPI">
+            <add-to-group group-id="CodeMenu" anchor="last" />
+        </group>
 
         <action id="AutoJsonTerminal.GenerateAction" class="com.jack.actions.GenerateJsonTerminal"
             text="JsonSerializable-Terminal"
             description="com.jack.actions.GenerateJson code that json need automatically.">
-            <add-to-group group-id="GenerateGroup" anchor="first" />
-            <add-to-group group-id="EditMenu" anchor="first" />
-            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <add-to-group group-id="AutoJson" anchor="last" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt L" />
         </action>
 
         <action id="JaguarSerializer.GenerateAction" class="com.jack.actions.GenerateJaguar"
             text="JaguarSerializer"
             description="com.jack.actions.GenerateJson code that json need automatically.">
-            <add-to-group group-id="GenerateGroup" anchor="first" />
-            <add-to-group group-id="EditMenu" anchor="first" />
-            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <add-to-group group-id="AutoJson" anchor="last" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt G" />
         </action>
 
-        <action id="JaguarSerializerTerminal.GenerateAction" class="com.jack.actions.GenerateJaguarTerminal"
-            text="JaguarSerializer-Terminal"
+        <action id="JaguarSerializerTerminal.GenerateAction"
+            class="com.jack.actions.GenerateJaguarTerminal" text="JaguarSerializer-Terminal"
             description="com.jack.actions.GenerateJson code that json need automatically.">
-            <add-to-group group-id="GenerateGroup" anchor="first" />
-            <add-to-group group-id="EditMenu" anchor="first" />
-            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <add-to-group group-id="AutoJson" anchor="last" />
             <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt P" />
         </action>
-
-        <action id="AJTerminal.GenerateAction" class="com.jack.actions.RunCommand" text="AutoJson-Terminal"
-            description="com.jack.actions.GenerateJson code that json need automatically.">
-            <add-to-group group-id="GenerateGroup" anchor="first" />
-            <add-to-group group-id="EditMenu" anchor="first" />
-            <add-to-group group-id="EditorPopupMenu" anchor="first" />
-            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt M" />
-        </action>
+        <!-- old  end     -->
     </actions>
 </idea-plugin>
