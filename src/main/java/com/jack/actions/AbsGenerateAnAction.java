@@ -49,7 +49,7 @@ public abstract class AbsGenerateAnAction extends AnAction {
             return "";
         }
 
-        String rgex = "class(.*?)(extends(.*?))?(implements(.*?))?\\{";
+        String rgex = "class(.*?)(extends(.*?))?(implements(.*?))?(with(.*?))?\\{";
         Pattern pattern = Pattern.compile(rgex);// 匹配的模式
         Matcher m = pattern.matcher(fileContent);
         while (m.find()) {
