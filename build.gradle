@@ -17,16 +17,21 @@ dependencies {
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
-def shPlugin = 'com.jetbrains.sh:' + thirdPartyPluginVersion
-def terminalPlugin = 'org.jetbrains.plugins.terminal:' + thirdPartyPluginVersion
+//https://plugins.jetbrains.com/plugin/13122-shell-script/versions
+def shPlugin = 'com.jetbrains.sh:211.7442.38'
+//https://plugins.jetbrains.com/plugin/13123-terminal/versions
+def terminalPlugin = 'org.jetbrains.plugins.terminal:211.7142.37'
 
 intellij {
     version intellijVersion
-    plugins = ['com.intellij.java', shPlugin, terminalPlugin]
+    plugins = ['com.intellij.java', 'java', shPlugin, terminalPlugin]
 }
 
 patchPluginXml {
     changeNotes """
+        - v3.2<br>
+        &emsp;&emsp;&emsp; Compatible with Android Studio 2021.1.1<br>
+        
         - v2.0<br>
         &emsp;&emsp;&emsp; 1. New add：JsonSerializable-Terminal.<br>
         &emsp;&emsp;&emsp; 2. New add：JaguarSerializer-Terminal.<br>
