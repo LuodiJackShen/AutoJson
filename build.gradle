@@ -18,9 +18,9 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 //https://plugins.jetbrains.com/plugin/13122-shell-script/versions
-def shPlugin = 'com.jetbrains.sh:211.7442.38'
+def shPlugin = 'com.jetbrains.sh:212.4746.58'
 //https://plugins.jetbrains.com/plugin/13123-terminal/versions
-def terminalPlugin = 'org.jetbrains.plugins.terminal:211.7142.37'
+def terminalPlugin = 'org.jetbrains.plugins.terminal:212.5284.17'
 
 intellij {
     version intellijVersion
