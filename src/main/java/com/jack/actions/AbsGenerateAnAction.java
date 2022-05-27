@@ -32,7 +32,7 @@ public abstract class AbsGenerateAnAction extends AnAction {
         super.update(e);
         e.getPresentation().setEnabled(false);
         Project project = e.getProject();
-        if (project != null) {
+        if (project != null && e.getData(CommonDataKeys.EDITOR) != null) {
             Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
             PsiFile file = PsiUtilBase.getPsiFileInEditor(editor, project);
             if (file != null) {
