@@ -9,6 +9,8 @@ version pluginVersion + '-' + intellijVersion
 repositories {
     mavenLocal()
     maven { url "https://maven.aliyun.com/repository/public" }
+    maven { url "https://www.jetbrains.com/intellij-repository/releases" }
+    maven { url "http://maven.oschina.net/content/groups/public/" }
     mavenCentral()
 }
 
@@ -18,9 +20,9 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 //https://plugins.jetbrains.com/plugin/13122-shell-script/versions
-def shPlugin = 'com.jetbrains.sh:212.4746.58'
+def shPlugin = 'com.jetbrains.sh:222.4345.15'
 //https://plugins.jetbrains.com/plugin/13123-terminal/versions
-def terminalPlugin = 'org.jetbrains.plugins.terminal:212.5284.17'
+def terminalPlugin = 'org.jetbrains.plugins.terminal:222.4345.5'
 
 intellij {
     version intellijVersion
@@ -29,6 +31,9 @@ intellij {
 
 patchPluginXml {
     changeNotes """
+        - v3.7<br>
+        &emsp;&emsp;&emsp; Compatible with Android Studio 2022.2.1 Patch 1<br>
+        
         - v3.2<br>
         &emsp;&emsp;&emsp; Compatible with Android Studio 2021.1.1<br>
         
